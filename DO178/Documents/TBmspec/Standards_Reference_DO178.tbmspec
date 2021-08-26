@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Specification>
+    <Objective identifier="Table A-1" name="Software Planning Process" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Partial">
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-1">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-1 1" name="The activities of the software life cycle processes are defined" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="4.1.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Planning Process" objective_identifier="Table A-1"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Plan for Software Aspects of Certification (PSAC)"/>
+        <Placeholder io="output" type="Asset" name="Software Development Plan (SDP)"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Plan (SVP)"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Plan (SCM)"/>
+        <Placeholder io="output" type="Asset" name="Software Quality Assurance Plan (SQA)"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-1">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-1 2" name="The software life cycle(s), including the inter-relationships between the processes, their sequencing, feedback mechanisms and transition criteria is defined" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="4.1.b" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Planning Process" objective_identifier="Table A-1"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Plan (SVP)"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Plan (SCM)"/>
+        <Placeholder io="output" type="Asset" name="Software Quality Assurance Plan (SQA)"/>
+        <Placeholder io="output" type="Asset" name="Plan for Software Aspects of Certification (PSAC)"/>
+        <Placeholder io="output" type="Asset" name="Software Development Plan (SDP)"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-1">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-1 3" name="Software life cycle environment is selected and defined" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="4.1.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Planning Process" objective_identifier="Table A-1"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Plan for Software Aspects of Certification (PSAC)"/>
+        <Placeholder io="output" type="Asset" name="Software Development Plan (SDP)"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Plan (SVP)"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Plan (SCM)"/>
+        <Placeholder io="output" type="Asset" name="Software Quality Assurance Plan (SQA)"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-1">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-1 4" name="Additional considerations are addressed" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="4.1.d" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Planning Process" objective_identifier="Table A-1"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Plan for Software Aspects of Certification (PSAC)"/>
+        <Placeholder io="output" type="Asset" name="Software Development Plan (SDP)"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Plan (SVP)"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Plan (SCM)"/>
+        <Placeholder io="output" type="Asset" name="Software Quality Assurance Plan (SQA)"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-1">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-1 5" name="Software development standards are defined" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="4.1.e" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Planning Process" objective_identifier="Table A-1"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="SW Requirements Standards"/>
+        <Placeholder io="output" type="Asset" name="SW Code Standards"/>
+        <Asset io="input" document="Documents\Standards_Reference\Reference\Coding_Standards_and_MISRA_C_2012_Overview.pdf">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-1">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-1 6" name="Software plans comply with this document" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="4.1.f" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Planning Process" objective_identifier="Table A-1"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-1">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-1 7" name="Development and revision of software plans are coordinated" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="4.1.g" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Planning Process" objective_identifier="Table A-1"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-1">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-2" name="Software Development Process" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Unfulfilled"/>
+    <Objective identifier="Table A-2 1" name="High-level requirements are developed" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="5.1.1.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Development Process" objective_identifier="Table A-2"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Artifact" name="High-Level Requirements"/>
+        <Placeholder io="output" type="Asset" name="Software Requirements Data"/>
+        <Placeholder io="output" type="Asset" name="Trace Data"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-2">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-2 1">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-2 2" name="Derived high-level requirements are defined and provided to the system processes, including the system safety assessment process" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="5.1.1.b" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Development Process" objective_identifier="Table A-2"/>
+        <Placeholder io="output" type="Asset" name="Software Requirements Data"/>
+    </Objective>
+    <Objective identifier="Table A-2 3" name="Software architecture is developed" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="5.2.1.a" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Development Process" objective_identifier="Table A-2"/>
+        <Placeholder io="output" type="Asset" name="Design Description"/>
+    </Objective>
+    <Objective identifier="Table A-2 4" name="Low-Level requirements are developed" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="5.2.1.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Development Process" objective_identifier="Table A-2"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Artifact" name="Low-Level Requirements"/>
+        <Placeholder io="output" type="Asset" name="Design Description"/>
+        <Placeholder io="output" type="Asset" name="Trace Data"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-2">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-2 4">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-2 5" name="Derived low-level requirements are defined and provided to the system processes, including the system safety assessment process" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="5.2.1.b" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Development Process" objective_identifier="Table A-2"/>
+        <Placeholder io="output" type="Asset" name="Design Description"/>
+    </Objective>
+    <Objective identifier="Table A-2 6" name="Source Code is developed" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="5.3.1.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Software Development Process" objective_identifier="Table A-2"/>
+        <Placeholder io="output" type="Artifact" name="Source Code"/>
+        <Placeholder io="output" type="Asset" name="Trace Data"/>
+    </Objective>
+    <Objective identifier="Table A-2 7" name="Executable Object Code and Parameter Data item Files, if any are produced and loaded in the target computer" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="5.4.1.a" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Development Process" objective_identifier="Table A-2"/>
+        <Placeholder io="output" type="Asset" name="Executable Object Code"/>
+        <Placeholder io="output" type="Asset" name="Parameter Data Item File"/>
+    </Objective>
+    <Objective identifier="Table A-3" name="Verification of Outputs of Software Requirements Process" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Unfulfilled"/>
+    <Objective identifier="Table A-3 1" name="High-level requirements comply with system requirements" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -  S" references="6.3.1.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Requirements Process" objective_identifier="Table A-3"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-3 2" name="High-level requirements are accurate and consistent" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -  S" references="6.3.1.b" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Requirements Process" objective_identifier="Table A-3"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Artifact" name="High-Level Requirements"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-3">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-3 2">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-3 3" name="High-level requirements are compatible with target computer" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -   , D -   " references="6.3.1.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Requirements Process" objective_identifier="Table A-3"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-3 4" name="High-level requirements are verifiable" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="6.3.1.d" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Requirements Process" objective_identifier="Table A-3"/>
+        <Placeholder io="output" type="Artifact" name="High-Level Requirements"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-3 5" name="High-level requirements conform to standards" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="6.3.1.e" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Requirements Process" objective_identifier="Table A-3"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-3 6" name="High-level requirements are traceable to system requirements" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="6.3.1.f" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Requirements Process" objective_identifier="Table A-3"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Artifact" name="High-Level Requirements"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-3">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-3 6">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-3 7" name="Algorithms are accurate" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -   " references="6.3.1.g" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Requirements Process" objective_identifier="Table A-3"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4" name="Verification of Outputs of Software Design Process" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Unfulfilled"/>
+    <Objective identifier="Table A-4 1" name="Low-Level requirements comply with high-level requirements" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -   " references="6.3.2.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 2" name="Low-level requirements are accurate and consistent" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -   " references="6.3.2.b" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Artifact" name="Low-Level Requirements"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-4">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-4 2">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-4 3" name="Low-level requirements are compatible with target computer" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -   , D -   " references="6.3.2.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 4" name="Low-Level requirements are verifiable" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -   , D -   " references="6.3.2.d" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Artifact" name="Low-Level Requirements"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 5" name="Low-level requirements conform to standards" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="6.3.2.e" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 6" name="Low-level requirements are traceable to high-level requirements" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="6.3.2.f" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Artifact" name="High-Level Requirements"/>
+        <Placeholder io="output" type="Artifact" name="Low-Level Requirements"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-4">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-4 6">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-4 7" name="Algorithms are accurate" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -   " references="6.3.2.g" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 8" name="Software architecture is compatible with high-level requirements" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -   " references="6.3.3.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 9" name="Software architecture is consistent" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -   " references="6.3.3.b" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 10" name="Software architecture is compatible with target computer" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -   , D -   " references="6.3.3.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 11" name="Software architecture is verifiable" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -   , D -   " references="6.3.3.d" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 12" name="Software architecture conforms to standards" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="6.3.3.e" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-4 13" name="Software partitioning integrity is confirmed" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -  S" references="6.3.3.f" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Design Process" objective_identifier="Table A-4"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-5" name="Verification of Outputs of Software Coding and Process" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Unfulfilled"/>
+    <Objective identifier="Table A-5 1" name="Source Code complies with low-level requirements" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -   " references="6.3.4.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Coding and Process" objective_identifier="Table A-5"/>
+        <Placeholder io="output" type="Artifact" name="Low-Level Requirements"/>
+        <Placeholder io="output" type="Artifact" name="Source Code"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-5 2" name="Source Code complies with software architecture" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -   " references="6.3.4.b" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Coding and Process" objective_identifier="Table A-5"/>
+        <Placeholder io="output" type="Artifact" name="Source Code"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-5 3" name="Source Code is verifiable" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -   , D -   " references="6.3.4.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Coding and Process" objective_identifier="Table A-5"/>
+        <Placeholder io="output" type="Artifact" name="Source Code"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-5 4" name="Source Code conforms to standards" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="6.3.4.d" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Coding and Process" objective_identifier="Table A-5"/>
+        <Placeholder io="input" type="Asset" name="Design and coding guidelines document"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Placeholder io="output" type="Artifact" name="Code Review Report Artifact Placeholder"/>
+        <Placeholder io="output" type="Artifact" name="Code Review TCI's"/>
+        <Placeholder io="output" type="Artifact" name="Programming Standards Callgraphs"/>
+        <Placeholder io="output" type="Artifact" name="Programming Standards Flowgraphs"/>
+        <Asset io="input" document="Documents\Standards_Reference\Reference\Coding_Standards_and_MISRA_C_2012_Overview.pdf">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="Aspects of ED-12C DO-178C Compliance.pdf" sectionName="Coding Standards">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-5">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-5 4">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-5 5" name="Source Code is traceable to low-level requirements" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="6.3.4.e" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Coding and Process" objective_identifier="Table A-5"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Artifact" name="Source Code"/>
+        <Placeholder io="output" type="Artifact" name="Low-Level Requirements"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-5 5">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-5">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-5 6" name="Source Code is accurate and consistent" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -   " references="6.3.4.f" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Coding and Process" objective_identifier="Table A-5"/>
+        <Placeholder io="output" type="Artifact" name="Source Code"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-5 7" name="Output of software integration process is complete and correct" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -   " references="6.3.5.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Coding and Process" objective_identifier="Table A-5"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-5 8" name="Parameter Data Item File is correct and complete" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -  S" references="6.6.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Coding and Process" objective_identifier="Table A-5"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Cases and Procedures"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-5 9" name="Verification of Parameter Data Item File is achieved" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -   " references="6.6.b" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Outputs of Software Coding and Process" objective_identifier="Table A-5"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-6" name="Testing of Outputs of Integration Process" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Unfulfilled"/>
+    <Objective identifier="Table A-6 1" name="Executable Object Code complies with high-level requirements" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="6.4.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Testing of Outputs of Integration Process" objective_identifier="Table A-6"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Cases and Procedures"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Placeholder io="output" type="Asset" name="Trace Data"/>
+    </Objective>
+    <Objective identifier="Table A-6 2" name="Executable Object Code is robust with high-level requirements" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="6.4.b" document="" keywords="" status="Partial">
+        <Parent objective_name="Testing of Outputs of Integration Process" objective_identifier="Table A-6"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Cases and Procedures"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Placeholder io="output" type="Asset" name="Trace Data"/>
+    </Objective>
+    <Objective identifier="Table A-6 3" name="Executable Object Code complies with low-level requirements" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -   " references="6.4.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Testing of Outputs of Integration Process" objective_identifier="Table A-6"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Cases and Procedures"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Placeholder io="output" type="Asset" name="Trace Data"/>
+    </Objective>
+    <Objective identifier="Table A-6 4" name="Executable Object Code is robust with low-level requirements" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -   " references="6.4.d" document="" keywords="" status="Partial">
+        <Parent objective_name="Testing of Outputs of Integration Process" objective_identifier="Table A-6"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Cases and Procedures"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Placeholder io="output" type="Asset" name="Trace Data"/>
+    </Objective>
+    <Objective identifier="Table A-6 5" name="Executable Object Code is compatible with target computer" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="6.4.e" document="" keywords="" status="Partial">
+        <Parent objective_name="Testing of Outputs of Integration Process" objective_identifier="Table A-6"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Cases and Procedures"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-7" name="Verification of Verification Process Results" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Unfulfilled"/>
+    <Objective identifier="Table A-7 1" name="Test procedures are correct" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -   " references="6.4.5.b" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Verification Process Results" objective_identifier="Table A-7"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-7 2" name="Test results are correct and discrepancies explained" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -   " references="6.4.5.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Verification Process Results" objective_identifier="Table A-7"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+    </Objective>
+    <Objective identifier="Table A-7 3" name="Test coverage of high-level requirements is achieved" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -  S" references="6.4.4.a" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Verification Process Results" objective_identifier="Table A-7"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-7 3">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-7">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-7 4" name="Test coverage of low-level requirements is achieved" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -  S, C -  S, D -   " references="6.4.4.b" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Verification Process Results" objective_identifier="Table A-7"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-7 4">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-7">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-7 5" name="Test coverage of software structure (modified condition/decision coverage) is achieved" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -   , C -   , D -   " references="6.4.4.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Verification Process Results" objective_identifier="Table A-7"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Placeholder io="output" type="Artifact" name="Dynamic Coverage Report Artifact Placeholder"/>
+        <Placeholder io="output" type="Artifact" name="MCDC Coverage TCI's"/>
+        <Placeholder io="output" type="Artifact" name="Code Coverage Callgraphs"/>
+        <Placeholder io="output" type="Artifact" name="Code Coverage Flowgraphs"/>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail + Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail + Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-7 5">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-7">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-7 6" name="Test coverage of software structure (decision coverage) is achieved" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -   , D -   " references="6.4.4.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Verification Process Results" objective_identifier="Table A-7"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Placeholder io="output" type="Artifact" name="Dynamic Coverage Report Artifact Placeholder"/>
+        <Placeholder io="output" type="Artifact" name="Branch/Decision Coverage TCI's"/>
+        <Placeholder io="output" type="Artifact" name="Code Coverage Callgraphs"/>
+        <Placeholder io="output" type="Artifact" name="Code Coverage Flowgraphs"/>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail + Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail + Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-7 6">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-7">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-7 7" name="Test coverage of software structure (statement coverage) is achieved" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -   " references="6.4.4.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Verification Process Results" objective_identifier="Table A-7"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Placeholder io="output" type="Artifact" name="Dynamic Coverage Report Artifact Placeholder"/>
+        <Placeholder io="output" type="Artifact" name="Statement Coverage TCI's"/>
+        <Placeholder io="output" type="Artifact" name="Code Coverage Callgraphs"/>
+        <Placeholder io="output" type="Artifact" name="Code Coverage Flowgraphs"/>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail + Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail + Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Artifact io="output" callgraph="Callgraph - Pass/Fail Coverage">
+            <Fulfills placeholderName="Code Coverage Callgraphs"/>
+        </Artifact>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-7 7">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-7">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-7 8" name="Test coverage of software structure (data coupling and control coupling) is achieved" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C -  S, D -   " references="6.4.4.d" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Verification Process Results" objective_identifier="Table A-7"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Placeholder io="output" type="Artifact" name="Data Coupling Report Artifact Placeholder"/>
+        <Placeholder io="output" type="Artifact" name="Control Coupling Report Artifact Placeholder"/>
+        <Placeholder io="output" type="Artifact" name="Dynamic Data Flow Report Artifact Placeholder"/>
+        <Placeholder io="output" type="Artifact" name="Static Callgraphs"/>
+        <Asset io="input" document="Documents\Standards_Reference\Reference\Data_and_Control_Coupling.pdf">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="Documents\Standards_Reference\Reference\Data_And_Control_Coupling_DO178C_example.pdf">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-7 8">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-7">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-7 9" name="Verification of additional code that can not be traced to Source Code, is achieved" body="" standard="DO-178C - Populated" standardLevel="A - SI, B -   , C -   , D -   " references="6.4.4.c" document="" keywords="" status="Partial">
+        <Parent objective_name="Verification of Verification Process Results" objective_identifier="Table A-7"/>
+        <Placeholder io="input" type="Asset" name="Standards Reference"/>
+        <Placeholder io="output" type="Asset" name="Software Verification Results"/>
+        <Asset io="input" document="DO_compliance_to_objectives_slides.pdf" sectionName="A-7 9">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="Aspects of ED-12C DO-178C Compliance.pdf" sectionName="Verification of additional code">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+        <Asset io="input" document="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf" sectionName="TABLE A-7">
+            <Fulfills placeholderName="Standards Reference"/>
+        </Asset>
+    </Objective>
+    <Objective identifier="Table A-8" name="Software Configuration Management Process" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Unfulfilled"/>
+    <Objective identifier="Table A-8 1" name="Configuration items are identified" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="7.1.a" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Configuration Management Process" objective_identifier="Table A-8"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Records"/>
+    </Objective>
+    <Objective identifier="Table A-8 2" name="Baselines and traceability are established" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="7.1.b" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Configuration Management Process" objective_identifier="Table A-8"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Records"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Index"/>
+    </Objective>
+    <Objective identifier="Table A-8 3" name="Problem reporting, change, control, change review, and configuration status accounting are established" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="7.1.c, 7.1.d, 7.1.e, 7.1.f" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Configuration Management Process" objective_identifier="Table A-8"/>
+        <Placeholder io="output" type="Asset" name="Problem Reports"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Records"/>
+    </Objective>
+    <Objective identifier="Table A-8 4" name="Archive, retrieval, and release are established" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="7.1.g" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Configuration Management Process" objective_identifier="Table A-8"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Records"/>
+    </Objective>
+    <Objective identifier="Table A-8 5" name="Software load control is established" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="7.1.h" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Configuration Management Process" objective_identifier="Table A-8"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Records"/>
+    </Objective>
+    <Objective identifier="Table A-8 6" name="Software life cycle environment control is established" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="7.1.i" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Configuration Management Process" objective_identifier="Table A-8"/>
+        <Placeholder io="output" type="Asset" name="Software Life Cycle Environment Configuration Index"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Management Records"/>
+    </Objective>
+    <Objective identifier="Table A-9" name="Software Quality Assurance Process" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Unfulfilled"/>
+    <Objective identifier="Table A-9 1" name="Assurance is obtained that software plans and standards are developed and reviewed for compliance with this document and for consistency" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C - SI, D -   " references="8.1.a" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Quality Assurance Process" objective_identifier="Table A-9"/>
+        <Placeholder io="output" type="Asset" name="Software Quality Assurance Records"/>
+    </Objective>
+    <Objective identifier="Table A-9 2" name="Assurance is obtained that software life cycle processes comply with approved software plans" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C - SI, D - SI" references="8.1.b" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Quality Assurance Process" objective_identifier="Table A-9"/>
+        <Placeholder io="output" type="Asset" name="Software Quality Assurance Records"/>
+    </Objective>
+    <Objective identifier="Table A-9 3" name="Assurance is obtained that software life cycle processes comply with approved software standards" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C - SI, D -   " references="8.1.b" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Quality Assurance Process" objective_identifier="Table A-9"/>
+        <Placeholder io="output" type="Asset" name="Software Quality Assurance Records"/>
+    </Objective>
+    <Objective identifier="Table A-9 4" name="Assurance is obtained that transition criteria for the software life cycle processes are satisfied" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C - SI, D -   " references="8.1.c" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Quality Assurance Process" objective_identifier="Table A-9"/>
+        <Placeholder io="output" type="Asset" name="Software Quality Assurance Records"/>
+    </Objective>
+    <Objective identifier="Table A-9 5" name="Assurance is obtained that software conformity review is conducted" body="" standard="DO-178C - Populated" standardLevel="A - SI, B - SI, C - SI, D - SI" references="8.1.d" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Software Quality Assurance Process" objective_identifier="Table A-9"/>
+        <Placeholder io="output" type="Asset" name="Software Quality Assurance Records"/>
+    </Objective>
+    <Objective identifier="Table A-10" name="Certification Liaison Process" body="" standard="DO-178C - Populated" standardLevel="" references="" document="" keywords="" status="Unfulfilled"/>
+    <Objective identifier="Table A-10 1" name="Communication and understanding between the applicant and the certification authority is established" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="9.a" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Certification Liaison Process" objective_identifier="Table A-10"/>
+        <Placeholder io="output" type="Asset" name="Plan for Software Aspects of Certification"/>
+    </Objective>
+    <Objective identifier="Table A-10 2" name="The means of compliance is proposed and agreement with the Plan for Software Aspect of Certification is obtained" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="9.b" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Certification Liaison Process" objective_identifier="Table A-10"/>
+        <Placeholder io="output" type="Asset" name="Plan for Software Aspects of Certification"/>
+    </Objective>
+    <Objective identifier="Table A-10 3" name="Compliance substantiation is provided" body="" standard="DO-178C - Populated" standardLevel="A -  S, B -  S, C -  S, D -  S" references="9.c" document="" keywords="" status="Unfulfilled">
+        <Parent objective_name="Certification Liaison Process" objective_identifier="Table A-10"/>
+        <Placeholder io="output" type="Asset" name="Software Accomplishment Summary"/>
+        <Placeholder io="output" type="Asset" name="Software Configuration Index"/>
+    </Objective>
+    <Document path="Documents\Standards_Reference\Reference\Aspects of ED-12C DO-178C Compliance.pdf">
+        <Section name="Coding Standards" section="12"/>
+        <Section name="Verification of additional code" section="40"/>
+        <Tag name="Standards Reference"/>
+    </Document>
+    <Document path="Documents\Standards_Reference\Reference\Coding_Standards_and_MISRA_C_2012_Overview.pdf">
+        <Tag name="Standards Reference"/>
+    </Document>
+    <Document path="Documents\Standards_Reference\Reference\Data_and_Control_Coupling.pdf">
+        <Tag name="Standards Reference"/>
+    </Document>
+    <Document path="Documents\Standards_Reference\Reference\Data_And_Control_Coupling_DO178C_example.pdf">
+        <Tag name="Standards Reference"/>
+    </Document>
+    <Document path="Documents\Standards_Reference\Reference\DO_compliance_to_objectives_slides.pdf">
+        <Section name="A-2 1" section="5"/>
+        <Section name="A-2 4" section="7"/>
+        <Section name="A-3 2" section="9"/>
+        <Section name="A-3 6" section="8"/>
+        <Section name="A-4 2" section="10"/>
+        <Section name="A-4 6" section="11"/>
+        <Section name="A-5 4" section="13"/>
+        <Section name="A-5 5" section=""/>
+        <Section name="A-7 3" section="31"/>
+        <Section name="A-7 4" section="32"/>
+        <Section name="A-7 5" section=""/>
+        <Section name="A-7 6" section="19"/>
+        <Section name="A-7 6" section="19"/>
+        <Section name="A-7 7" section="21"/>
+        <Section name="A-7 8" section="23"/>
+        <Section name="A-7 9" section="26"/>
+        <Tag name="Standards Reference"/>
+    </Document>
+    <Document path="..\Standards_Reference\Reference\LDRA tool suite DO-178C Tables A1 - A10 v7.pdf">
+        <Section name="TABLE A-1" section="1"/>
+        <Section name="TABLE A-2" section="2"/>
+        <Section name="TABLE A-3" section="3"/>
+        <Section name="TABLE A-4" section="4"/>
+        <Section name="TABLE A-5" section="5"/>
+        <Section name="TABLE A-6" section="6"/>
+        <Section name="TABLE A-7" section="7"/>
+        <Section name="TABLE A-8" section="8"/>
+        <Section name="TABLE A-9" section="9"/>
+        <Section name="TABLE A-10" section="10"/>
+        <Tag name="Standards Reference"/>
+    </Document>
+    <Document path="Documents\Standards_Reference\Reference\Tool_Qualification_Support_Package_Overview.pdf">
+        <Tag name="Standards Reference"/>
+    </Document>
+</Specification>

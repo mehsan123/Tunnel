@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TBmanagerXML>
+    <Login UID="1_usr4">Riley, Shawn</Login>
+    <Project_Metadata block="Project Metadata">
+        <Project_Attributes>
+            <ProjectIndex ProjectInternal="y">3</ProjectIndex>
+        </Project_Attributes>
+        <New>No</New>
+        <SubProject>Yes</SubProject>
+        <Project_Version>TBmanager 9.8.6</Project_Version>
+    </Project_Metadata>
+</TBmanagerXML>

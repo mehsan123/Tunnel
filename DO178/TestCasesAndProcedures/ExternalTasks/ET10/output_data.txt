@@ -1,0 +1,102 @@
+
+Photometer Input: 4mA    Days since cleaning: 0    Power: Live 
+ 
+(0) quit (1) Photometer Input (4-20) 
+(2) Set days since cleaning (3) Toggle Power Failure Status: 
+
+ Lumens: 5500 Power Setting: 84 for lamp ID: 2
+ Lumens: 5500 Power Setting: 84 for lamp ID: 102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 502
+ Lumens: 5500 Power Setting: 84 for lamp ID: 602
+ Lumens: 5500 Power Setting: 84 for lamp ID: 702
+ Lumens: 5500 Power Setting: 84 for lamp ID: 802
+ Lumens: 5500 Power Setting: 84 for lamp ID: 902
+ Lumens: 5500 Power Setting: 84 for lamp ID: 1002
+ Lumens: 5500 Power Setting: 84 for lamp ID: 1102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 1202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 1302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 1402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10002
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10502
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10602
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10702
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10802
+ Lumens: 5500 Power Setting: 84 for lamp ID: 10902
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11002
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11502
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11602
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11702
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11802
+ Lumens: 5500 Power Setting: 84 for lamp ID: 11902
+ Lumens: 5500 Power Setting: 84 for lamp ID: 12002
+ Lumens: 5500 Power Setting: 84 for lamp ID: 12102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 12202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 12302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 12402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20002
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20502
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20602
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20702
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20802
+ Lumens: 5500 Power Setting: 84 for lamp ID: 20902
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21002
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21502
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21602
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21702
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21802
+ Lumens: 5500 Power Setting: 84 for lamp ID: 21902
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30002
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30502
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30602
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30702
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30802
+ Lumens: 5500 Power Setting: 84 for lamp ID: 30902
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31002
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31502
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31602
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31702
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31802
+ Lumens: 5500 Power Setting: 84 for lamp ID: 31902
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40002
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40102
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40202
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40302
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40402
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40502
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40602
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40702
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40802
+ Lumens: 5500 Power Setting: 84 for lamp ID: 40902
+
+Photometer Input: 4mA    Days since cleaning: 0    Power: Failed 
+ 
+(0) quit (1) Photometer Input (4-20) 
+(2) Set days since cleaning (3) Toggle Power Failure Status: 
+

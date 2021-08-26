@@ -1,0 +1,827 @@
+
+
+ # Begin Testbed Set
+
+ SET_TYPE = SYSTEM
+ SET_NAME = Cpp_tunnel_lighting_system
+ GENERATED_BY = Testbed 9.5.2
+ HOSTNAME = GENERAL
+
+    # Begin Source Files
+
+    RelativeFile = ..\Source_Code\Cell.cpp
+    RelativeFile = ..\Source_Code\Tunnel.cpp
+    RelativeFile = ..\Source_Code\Systemdata.cpp
+    RelativeFile = ..\Source_Code\Mountings.cpp
+    RelativeFile = ..\Source_Code\Main.cpp
+    RelativeFile = ..\Source_Code\Lamptype.cpp
+    RelativeFile = ..\Source_Code\Lampmodel.cpp
+    RelativeFile = ..\Source_Code\Lamp.cpp
+    RelativeFile = ..\Source_Code\Datain.cpp
+    RelativeFile = ..\Source_Code\Zone.cpp
+
+    # End Source Files
+
+    # Begin Sysearch Include File Entries
+
+
+    # End Sysearch Include File Entries
+
+    # Begin Sysppvar Preprocessor Macros
+
+    MacroEntry = CppOnly 1
+
+    # End Sysppvar Preprocessor Macros
+
+    # Begin Options
+
+
+    # End Options
+
+ # End Testbed Set
+
+$ End LDRA Testbed analysis information incorporated from:
+$ Cpp_tunnel_shared.tcf
+
+    # Begin Properties
+
+    # End Properties
+
+    # Begin Attributes
+
+      Sequence Name = Mounting_Area_Instantiation
+      Language Code = 6
+      Version = 9.5.2
+
+    # End Attributes
+
+    # Begin Test Case
+
+      File = ..\Source_Code\Mountings.cpp
+      Procedure = TunnelData::MountingArea::MountingArea
+      Procedure Number = 1
+      Member Of = 1
+      Creation Date = Dec 15 2014 14:10:53
+
+        # Begin Variable
+
+          Name = l
+          Decl_type = int
+          Usage = Z
+          Value = 2
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = b
+          Decl_type = int
+          Usage = Z
+          Value = 2
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = breadth
+          Decl_type = int
+          Usage = N
+          Value = 2
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = length
+          Decl_type = int
+          Usage = N
+          Value = 2
+
+        # End Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = ..\Source_Code\Mountings.cpp
+      Procedure = TunnelData::MountingArea::NumLamps
+      Procedure Number = 2
+      Member Of = 1
+      Creation Date = Dec 15 2014 14:12:06
+
+      # Begin Declarations
+static int ldra_qq_lv_2;
+static int ldra_qq_lv_3;
+static TunnelData::model ldra_qq_lv_4;
+static TunnelData::LampAttributes ldra_qq_lv_1(ldra_qq_lv_2,ldra_qq_lv_3,ldra_qq_lv_4);
+      # End Declarations
+
+        # Begin Variable
+
+          Name = MyLamp
+          Decl_type = TunnelData::LampAttributes
+          Usage = Z
+          Value = ldra_qq_lv_1
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = breadth
+          Decl_type = int
+          Usage = M
+          Value = 3
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = length
+          Decl_type = int
+          Usage = M
+          Value = 2
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = %
+          Decl_type = int
+          Usage = O
+          Value = 0
+
+        # End Variable
+
+    # End Test Case
+
+    # Begin Local Conversions
+I
+bool
+ldra_qq_bool_convert
+C:\_LDRA_Toolsuite\950_E1\cpp\cpptbrunlib.h
+    # End Local Conversions
+
+    # Begin Global Conversions
+S
+int
+%d
+S
+long
+%ld
+S
+long int
+%ld
+S
+short
+%hd
+S
+short int
+%hd
+S
+signed
+%d
+S
+signed int
+%d
+S
+signed long
+%ld
+S
+signed long int
+%ld
+S
+signed short
+%hd
+S
+signed short int
+%hd
+S
+unsigned
+%u
+S
+unsigned int
+%u
+S
+unsigned long
+%lu
+S
+unsigned long int
+%lu
+S
+unsigned short
+%hu
+S
+unsigned short int
+%hu
+C
+char
+ldra_qq_char_convert
+C
+char*
+ldra_qq_char_star_convert
+C
+CString
+ldra_qq_CString_convert
+C
+double
+ldra_qq_double_convert
+C
+float
+ldra_qq_float_convert
+C
+long double
+ldra_qq_long_double_convert
+C
+long long
+ldra_qq_long_long_convert
+C
+long long int
+ldra_qq_long_long_convert
+C
+signed long long
+ldra_qq_long_long_convert
+C
+signed long long int
+ldra_qq_long_long_convert
+C
+string
+ldra_qq_string_convert
+C
+std::string
+ldra_qq_string_convert
+C
+wstring
+ldra_qq_wstring_convert
+C
+std::wstring
+ldra_qq_wstring_convert
+S
+signed char
+0x%x
+C
+unsigned char
+ldra_qq_unsigned_char_convert
+C
+unsigned long long
+ldra_qq_ulong_long_convert
+C
+unsigned long long int
+ldra_qq_ulong_long_convert
+U
+bool
+ldra_qq_bool_convert
+U
+BOOL
+ldra_qq_BOOL_convert
+C
+wchar_t
+ldra_qq_wchar_t_convert
+C
+wchar_t*
+ldra_qq_wchar_t_star_convert
+G
+__int8
+char
+G
+signed __int8
+signed char
+G
+unsigned __int8
+unsigned char
+G
+__int16
+short
+G
+signed __int16
+signed short
+G
+unsigned __int16
+unsigned short
+G
+__int32
+int
+G
+signed __int32
+signed int
+G
+unsigned __int32
+unsigned int
+S
+__int64
+%I64di64
+S
+signed __int64
+%I64di64
+S
+unsigned __int64
+%I64uui64
+G
+BIT
+unsigned char
+G
+BYTE
+unsigned char
+G
+CHAR
+char
+G
+DWORD
+unsigned long
+G
+FL32
+float
+G
+FLOAT
+float
+G
+float32
+float
+G
+float64
+double
+G
+FLOAT32
+float
+G
+UChar8Type
+unsigned char
+G
+DataByteType
+unsigned char
+G
+uint8
+unsigned char
+G
+uint16
+unsigned short int
+G
+uint32
+unsigned int
+G
+int8
+signed char
+G
+int16
+signed short int
+G
+int32
+signed int
+G
+IEEE_SPFloatType
+float
+G
+IEEE_DPFloatType
+double
+G
+Float32Type
+float
+G
+Float64Type
+double
+G
+SInt16Type
+signed short int
+G
+SInt32Type
+signed int
+G
+SInt8Type
+signed char
+G
+UInt16Type
+unsigned short int
+G
+UInt32Type
+unsigned int
+G
+UInt8Type
+unsigned char
+G
+INT
+int
+G
+Int8
+char
+G
+Int16
+short
+G
+Int32
+long
+G
+INT8
+char
+G
+INT16
+short
+G
+INT32
+int
+G
+INT8_T
+int
+G
+INT16_T
+int
+G
+LONG
+long
+G
+LPARAM
+long
+G
+LRESULT
+long
+G
+SCHAR
+signed char
+G
+SHORT
+short
+G
+SINT
+signed int
+G
+SInt8
+signed char
+G
+SI16
+signed int
+G
+SI32
+signed long
+G
+SIGNED8
+signed char
+G
+SIGNED16
+signed int
+G
+SIGNED32
+signed long
+G
+SInt16
+signed short
+G
+SInt32
+signed long
+G
+STDAPI
+long
+G
+SWORD
+signed long
+G
+TInt8
+signed char
+G
+TInt16
+short int
+G
+TInt32
+long int
+G
+TInt
+signed int
+G
+TReal
+double
+G
+TReal32
+float
+G
+TReal64
+double
+G
+TUint
+unsigned int
+G
+TUint8
+unsigned char
+G
+TUint16
+unsigned short int
+G
+TUint32
+unsigned long int
+G
+U8Int
+unsigned char
+G
+UI16
+unsigned int
+G
+U16Int
+unsigned int
+G
+UI32
+unsigned long
+G
+U32Int
+unsigned long
+G
+UCHAR
+unsigned char
+G
+UInt8
+unsigned char
+G
+UInt16
+unsigned short
+G
+UInt32
+unsigned long
+G
+UINT
+unsigned int
+G
+UINT8
+unsigned char
+G
+UINT8_T
+unsigned int
+G
+UINT16
+unsigned short
+G
+UINT16_T
+unsigned int
+G
+UINT32_T
+unsigned long
+G
+ULONG
+unsigned long
+G
+UNSIGNED8
+unsigned char
+G
+UNSIGNED16
+unsigned int
+G
+UNSIGNED32
+unsigned long
+G
+USHORT
+unsigned short
+G
+WORD
+unsigned short
+G
+WPARAM
+unsigned int
+G
+bit
+unsigned char
+G
+byte
+unsigned char
+G
+dword
+unsigned long
+G
+int8_t
+char
+G
+int16_t
+short
+G
+int32_t
+long
+G
+lparam
+long
+G
+lresult
+long
+G
+real
+float
+G
+sint
+signed int
+G
+sint8_t
+signed char
+G
+sint16_t
+signed short
+G
+sint32_t
+signed long
+G
+sword
+signed long
+G
+uchar_T
+unsigned char
+G
+uint
+unsigned int
+G
+uint8_t
+unsigned char
+G
+uint16_t
+unsigned short
+G
+uint32_t
+unsigned long
+G
+ushort_T
+unsigned short
+G
+ulong_T
+unsigned long
+G
+word
+unsigned short
+G
+wparam
+unsigned int
+G
+RhpBoolean
+bool
+G
+RhpCharacter
+char
+G
+RhpInteger
+int
+G
+RhpPositive
+unsigned int
+G
+RhpReal
+double
+G
+RhpUnlimitedNatural
+long
+G
+OMBoolean
+bool
+
+    # End Global Conversions
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::Area
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::Drain
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::Height
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::LampAttributes
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+int
+int
+TunnelData::model
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::Width
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SquareLamp::SquareLamp
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+int
+TunnelData::model
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+    # Begin Constructor Inits
+TunnelData::LampAttributes(l,l,ThisModel)
+    # End Constructor Inits
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Selected Files from Set
+
+..\Source_Code\Mountings.cpp
+
+# End Selected Files from Set
+
+# Begin White Files
+
+..\Source_Code\Zone.cpp
+..\Source_Code\Datain.cpp
+..\Source_Code\Lamp.cpp
+..\Source_Code\Lampmodel.cpp
+..\Source_Code\Lamptype.cpp
+..\Source_Code\Main.cpp
+..\Source_Code\Mountings.cpp
+..\Source_Code\Systemdata.cpp
+..\Source_Code\Tunnel.cpp
+..\Source_Code\Cell.cpp
+
+# End White Files
+

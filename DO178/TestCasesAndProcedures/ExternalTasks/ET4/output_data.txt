@@ -1,0 +1,6 @@
+
+Photometer Input: 4mA    Days since cleaning: 0    Power: Live 
+ 
+(0) quit (1) Photometer Input (4-20) 
+(2) Set days since cleaning (3) Toggle Power Failure Status: 
+

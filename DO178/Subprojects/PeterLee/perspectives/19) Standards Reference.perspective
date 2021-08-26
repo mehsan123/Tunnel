@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Perspectives>
+    <Perspective name="19) Standards Reference" app="TBmanager">
+        <View key="artifacts">
+            <State>1162 </State>
+        </View>
+        <View key="assetsview">
+            <State>1145 </State>
+        </View>
+        <View key="assignuserview">
+            <State>250 User%%757 Role</State>
+        </View>
+        <View key="defectsgridview">
+            <State>100 TCI Status%%100 Defect Report Number%%100 Priority%%100 DR Description%%100 Date Opened%%100 Date Closed%%100 Comments%%100 Closed%%100 VT UID%%100 Opened By%%100 Status</State>
+            <State>CHECKBOX-ShowOpenedCheckbox-!-CHECKED</State>
+            <State>CHECKBOX-ShowClosedCheckbox-!-CHECKED</State>
+        </View>
+        <View key="documentgridview">
+            <State>430 File%%100 Extension%%202 Tags%%693 Directory%%^368 Section</State>
+            <State>Show only
+Tags
+Standards Reference
+contains
+Case Insensitive</State>
+        </View>
+        <View key="doer">
+            <State>NOSTATE</State>
+        </View>
+        <View key="glhgridview">
+            <State>100 Name%%100 Directory%%100 Source%%100 File Count%%100 Procedure Count%%100 Type%%100 CM Revision%%100 Suitability%%100 Default Test Types</State>
+            <State>TopLevelItems-!-</State>
+        </View>
+        <View key="logview">
+            <State>NOSTATE</State>
+        </View>
+        <View key="mainwindow">
+            <State>%00%00%00%FF%00%00%00%03%FD%00%00%00%02%00%00%00%00%00%00%04%C5%00%00%03%D7%FC%02%00%00%00%05%FC%00%00%007%00%00%01%AF%00%00%00y%00%FF%FF%FF%FA%00%00%00%00%01%00%00%00%02%FB%00%00%00%14%00O%00b%00j%00e%00c%00t%00i%00v%00e%00s%01%00%00%00%00%FF%FF%FF%FF%00%00%00Q%00%FF%FF%FF%FB%00%00%00%16%00A%00s%00s%00i%00g%00n%00%20%00U%00s%00e%00r%00%00%00%00%29%00%00%03%F7%00%00%00P%00%FF%FF%FF%FB%00%00%00%14%00S%00c%00r%00a%00t%00c%00h%00b%00o%00x%00%00%00%01%29%00%00%01J%00%00%00%B1%00%FF%FF%FF%FB%00%00%00%1A%00R%00e%00l%00a%00t%00i%00o%00n%00s%00h%00i%00p%00s%01%00%00%01%EA%00%00%02%24%00%00%00%B6%00%FF%FF%FF%FB%00%00%00%12%00T%00B%00M%00-%002%008%005%002%001%00%00%00%02%9F%00%00%01o%00%00%00R%00%FF%FF%FF%FB%00%00%00%12%00T%00B%00M%00-%002%008%007%000%007%00%00%00%02%87%00%00%01%87%00%00%00R%00%FF%FF%FF%00%00%00%01%00%00%02%94%00%00%03%D7%FC%02%00%00%00%02%FC%00%00%007%00%00%03%D7%00%00%00%97%00%FF%FF%FF%FC%01%00%00%00%02%FC%00%00%03c%00%00%00%8F%00%00%00%00%00%FF%FF%FF%FA%FF%FF%FF%FF%02%00%00%00%0C%FB%00%00%00%14%00M%00a%00p%00%20%00S%00o%00u%00r%00c%00e%00%00%00%00%00%FF%FF%FF%FF%00%00%00%81%00%FF%FF%FF%FB%00%00%00%0E%00D%00e%00f%00e%00c%00t%00s%00%00%00%00%00%FF%FF%FF%FF%00%00%00z%00%FF%FF%FF%FB%00%00%00%0A%00N%00o%00t%00e%00s%00%00%00%00%00%FF%FF%FF%FF%00%00%00%F1%00%FF%FF%FF%FB%00%00%00%2C%00R%00e%00q%00u%00i%00r%00e%00m%00e%00n%00t%00%20%00P%00r%00o%00p%00e%00r%00t%00i%00e%00s%00%00%00%00%00%FF%FF%FF%FF%00%00%00c%00%FF%FF%FF%FB%00%00%00%18%00T%00r%00a%00c%00e%00a%00b%00i%00l%00i%00t%00y%00%00%00%00%00%FF%FF%FF%FF%00%00%00%80%00%FF%FF%FF%FB%00%00%00%20%00R%00e%00q%00u%00i%00r%00e%00m%00e%00n%00t%00%20%00G%00r%00i%00d%02%00%00%04h%00%00%01D%00%00%01%10%00%00%02%8D%FB%00%00%00%10%00T%00C%00I%00%20%00G%00r%00i%00d%00%00%00%00%00%FF%FF%FF%FF%00%00%00%9D%00%FF%FF%FF%FB%00%00%00%12%00T%00e%00m%00p%00l%00a%00t%00e%00s%00%00%00%00%00%FF%FF%FF%FF%00%00%00c%00%FF%FF%FF%FB%00%00%00%0E%00U%00n%00i%00V%00i%00e%00w%00%00%00%00%00%FF%FF%FF%FF%00%00%000%00%FF%FF%FF%FB%00%00%00%0C%00I%00m%00p%00a%00c%00t%00%00%00%00%00%FF%FF%FF%FF%00%00%00%81%00%FF%FF%FF%FB%00%00%00%16%00M%00a%00t%00r%00i%00x%00%20%00V%00i%00e%00w%00%00%00%00%00%FF%FF%FF%FF%00%00%00%81%00%FF%FF%FF%FB%00%00%00%12%00G%00L%00H%00%20%00F%00i%00l%00e%00s%00%00%00%00%00%FF%FF%FF%FF%00%00%00%7B%00%FF%FF%FF%FC%00%00%04%EC%00%00%02%94%00%00%02E%00%FF%FF%FF%FC%02%00%00%00%03%FB%00%00%00%12%00D%00o%00c%00u%00m%00e%00n%00t%00s%01%00%00%007%00%00%03%D7%00%00%00%97%00%FF%FF%FF%FB%00%00%00%12%00T%00B%00M%00-%001%005%009%001%002%00%00%00%02%A8%00%00%01f%00%00%00R%00%FF%FF%FF%FB%00%00%00%12%00T%00B%00M%00-%002%001%008%004%004%00%00%00%02%98%00%00%01v%00%00%00R%00%FF%FF%FF%FC%00%00%02%DE%00%00%01%20%00%00%00%00%00%FF%FF%FF%FA%FF%FF%FF%FF%01%00%00%00%04%FB%00%00%00%0C%00A%00s%00s%00e%00t%00s%00%00%00%00%00%FF%FF%FF%FF%00%00%00P%00%FF%FF%FF%FB%00%00%00%12%00A%00r%00t%00i%00f%00a%00c%00t%00s%00%00%00%00%00%FF%FF%FF%FF%00%00%00P%00%FF%FF%FF%FB%00%00%00%18%00P%00r%00o%00j%00e%00c%00t%00%20%00T%00r%00e%00e%00%00%00%00%00%FF%FF%FF%FF%00%00%01%2C%00%FF%FF%FF%FB%00%00%00%06%00L%00o%00g%00%00%00%04%00%00%00%03%80%00%00%00%7C%00%FF%FF%FF%FF%FF%FF%FC%00%00%03%D7%00%00%00%04%00%00%00%04%00%00%00%08%00%00%00%08%FC%00%00%00%02%00%00%00%00%00%00%00%01%00%00%00%1A%00V%00i%00e%00w%00s%00%20%00T%00o%00o%00l%00b%00a%00r%03%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%02%00%00%00%09%00%00%00%18%00F%00i%00l%00e%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%20%00S%00e%00t%00t%00i%00n%00g%00s%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%00%C6%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%26%00S%00o%00u%00r%00c%00e%00%20%00C%00o%00d%00e%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%01%10%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%1E%00P%00r%00o%00g%00r%00a%00m%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%02%12%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%28%00A%00p%00p%00l%00i%00c%00a%00t%00i%00o%00n%00s%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%02%3D%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%16%00T%00a%00g%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%02%A6%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%22%00H%00i%00g%00h%00l%00i%00g%00h%00t%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%03%0F%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%006%00P%00l%00a%00c%00e%00h%00o%00l%00d%00e%00r%00%20%00R%00e%00f%00r%00e%00s%00h%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%03x%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%2C%00T%00B%00m%00a%00n%00a%00g%00e%00r%00%20%00S%00p%00e%00c%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%03%A3%FF%FF%FF%FF%00%00%00%00%00%00%00%00</State>
+            <State>TBmain-CHART-!-TBM-28521-!-Placeholder Fulfillment Pie Chart-!-</State>
+            <State>TBmain-CHART-!-TBM-21844-!-Placeholder Fulfillment Pie Chart-!-</State>
+            <State>TBmain-CHART-!-TBM-28707-!-Objectives Pie Chart-!-</State>
+            <State>TBmain-CHART-!-TBM-15912-!-Placeholder Fulfillment Pie Chart-!-</State>
+        </View>
+        <View key="mapthreadview">
+            <State>^300 Procedure%%100 Parameters%%100 Return Type%%150 Source File%%75 Directory%%100 Version Control Revision%%100 Language</State>
+        </View>
+        <View key="matrixtable">
+            <State>MatrixTableTabNames-!-</State>
+        </View>
+        <View key="notesview">
+            <State>200 Notes%%100 Note Body Preview%%100 Links To%%100 Created By%%100 Created On%%100 Status%%100 Finished%%100 Body</State>
+            <State>RelFilterState-!-</State>
+            <State>CvaState-!-</State>
+        </View>
+        <View key="objectives">
+            <State>^603 %%100 Status%%100 Body%%100 Standard%%100 Standard Level%%100 References%%100 Identifier%%100 Keywords%%100 Grouping%%100 Document</State>
+            <State>Show only
+
+standards reference
+contains
+Case Insensitive</State>
+        </View>
+        <View key="projview2">
+            <State>1145 Project Tree</State>
+        </View>
+        <View key="relsview">
+            <State>TBV_rels-CHAIN-!-*Item to Assets-IDs-1_bjv1,1_bjv2,1_bjv3,1_bjv4,1_bjv5,1_bjv6,1_bjv7,1_bjv8,1_bjv10,1_bjv13,1_bjv19,1_bjv23,1_bjv27,1_bjv31,1_bjv43,1_bjv44,1_bjv58,1_bjv59,1_bjv60,1_bjv61,1_bjv62,1_bjv63,1_bjv64-!-1_sdc3,1_sdc4,1_sdc5,1_sdc6,1_sdc7,1_sdc8,1_sdc9,1_sdc10,1_sdc11,1_sdc12,1_sdc13,1_sdc14,1_sdc16,1_sdc17,1_sdc18,1_sdc1,1_doc17,1_doc19,1_doc18,1_sdc19,1_sdc20,1_sdc21,1_sdc22,1_sdc23,1_sdc25,1_sdc2-CVAs--!--FilterSelections-None-!-None-SEARCHABLETREEs--!-</State>
+        </View>
+        <View key="scratchbox">
+            <State>ScratchBox-TAB-!-Original::[[[]]]!CVA!</State>
+            <State>ScratchBox-TAB-!-*Objectives::[[[]]]!CVA!</State>
+        </View>
+        <View key="sourceimpact">
+            <State>523 Item</State>
+        </View>
+        <View key="templates">
+            <State>400 Template%%85 Source Item%%200 Description</State>
+        </View>
+        <View key="testcasegridview">
+            <State>100 Test Case Number%%100 Type%%^100 Description%%100 Status%%100 Associated Source%%100 From Group%%769 TCF%%100 Automatable%%100 Unit Test Subtype%%291 External Task</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Section[!.@.!]16</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Expected Results[!.@.!]18</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Prerequisite Conditions[!.@.!]19</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Assumptions and constraints[!.@.!]21</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Level[!.@.!]22</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Test Case Review[!.@.!]23</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Type/Class[!.@.!]12</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Test Case Review Notes[!.@.!]24</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Types of data to be recorded[!.@.!]26</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Criteria for evaluating results[!.@.!]27</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Test Procedure Outline[!.@.!]29</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Notes on Test Strategy[!.@.!]15</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Test Inputs[!.@.!]25</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Safety Level[!.@.!]20</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Category of test[!.@.!]13</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Text_Attrib[!.@.!]17</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Note Groups[!.@.!]28</State>
+            <State>CHECKBOX-showTciPropsChk-!-UNCHECKED</State>
+            <State>CvaState-!-</State>
+        </View>
+        <View key="threadgridview">
+            <State>20 %%100 Verification Status%%^100 Number%%100 Name%%100 Body%%100 Assignee First Name%%100 Assignee Last Name%%100 Thread Type%%100 Traces To File%%100 Automatable%%100 Open Defects%%100 VT Parent</State>
+            <State>CustomHeaderColumn-!-0[!.@.!]-[!.@.!]Safety[!.@.!]12</State>
+            <State>CHECKBOX-ShowVTsCheckbox-!-UNCHECKED</State>
+            <State>CHECKBOX-ShowTCsCheckbox-!-UNCHECKED</State>
+            <State>CvaState-!-</State>
+        </View>
+        <View key="threadinfoview">
+            <State>150 Element%%100 Summary</State>
+        </View>
+        <View key="traceabilityview">
+            <State>250 Traceability Hierarchy%%100 Mapped On%%100 Mapped By%%950 File</State>
+            <State>CHECKBOX-showMapped-!-CHECKED</State>
+            <State>CHECKBOX-showUnmapped-!-CHECKED</State>
+            <State>TopLevelItems-!-1_th105</State>
+        </View>
+        <View key="uniview">
+            <State>NOSTATE</State>
+        </View>
+    </Perspective>
+</Perspectives>

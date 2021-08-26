@@ -1,0 +1,32 @@
+"--------------------" 
+STARTING TEST RUN AT Wed 05/26/2021 15:22:08.35 
+TEST NUMBER 13 
+FOUND TEST DIRECTORY 
+CALLING PRE EXEC 
+C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\..\..\Source_Code\Cpp_tunnel_lighting_system.exe exists
+CALLED PRE EXEC COMMAND IF ANY 
+Starting Time: 15:22:08.38 
+Using Command "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\Utils\ExecExe.bat" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\..\..\Source_Code\Cpp_tunnel_lighting_system.exe" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\ET13\test_input_data.txt" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\ET13\output_data.txt" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\..\..\Source_Code\" 
+"C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\Utils\ExecExe.bat" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\..\..\Source_Code\Cpp_tunnel_lighting_system.exe" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\ET13\test_input_data.txt" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\ET13\output_data.txt" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\..\..\Source_Code\" 
+Current Directory C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code
+"Changing directory to "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\..\..\Source_Code\""
+Current Diectory now C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code
+"C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\..\..\Source_Code\Cpp_tunnel_lighting_system.exe" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\ET13\test_input_data.txt" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\ET13\output_data.txt"
+CALLED UNINSTRUMENTED 
+RETURN CODE OF EXECUTION 0 
+Ending Time: 15:22:08.46 
+FINISHED EXECUTION 
+CALLING TESTDATA TEST 
+FC "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\ET13\output_data.txt" "C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\TestCasesAndProcedures\ExternalTasks\ET13\verified_output_data.txt"
+Comparing files C:\_LDRA_WORKAREA\986\EXAMPLES\TOOLSUITE\TUNNEL_5.2\DO178\TESTCASESANDPROCEDURES\EXTERNALTASKS\ET13\output_data.txt and C:\_LDRA_WORKAREA\986\EXAMPLES\TOOLSUITE\TUNNEL_5.2\DO178\TESTCASESANDPROCEDURES\EXTERNALTASKS\ET13\VERIFIED_OUTPUT_DATA.TXT
+FC: no differences encountered
+
+FINISH CALLING TESTDATA TEST 
+CALLING POST EXEC 
+"FINISHED Checking TEST DATA TEST"
+"Return value is 0"
+"FINISHED ET"
+FINISH CALLING POST EXEC 
+"SUCCESS" 
+"--------------------" 
+"DONE" 

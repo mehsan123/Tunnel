@@ -1,0 +1,42 @@
+
+ # Begin Testbed Set
+
+ SET_TYPE = SYSTEM
+ SET_NAME = Cpp_tunnel_lighting_system
+ GENERATED_BY = Testbed 9.5.8
+
+    # Begin Source Files
+
+    RelativeFile = .\Cell.cpp
+    RelativeFile = .\Datain.cpp
+    RelativeFile = .\Lamp.cpp
+    RelativeFile = .\Lampmodel.cpp
+    RelativeFile = .\Lamptype.cpp
+    RelativeFile = .\Main.cpp
+    RelativeFile = .\Mountings.cpp
+    RelativeFile = .\Systemdata.cpp
+    RelativeFile = .\Tunnel.cpp
+    RelativeFile = .\Zone.cpp
+
+    # End Source Files
+
+    # Begin Sysearch Include File Entries
+
+
+    # End Sysearch Include File Entries
+
+    # Begin Sysppvar Preprocessor Macros
+
+    MacroEntry = CppOnly 1
+
+    # End Sysppvar Preprocessor Macros
+
+    # Begin Options
+
+	nb_start_in_dir = $(Sourcedir)
+	nb_executepath = $(Sourcedir)
+	exhdir = $(Sourcedir)
+	
+    # End Options
+
+ # End Testbed Set

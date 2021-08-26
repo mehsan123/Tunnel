@@ -1,0 +1,2380 @@
+ # Begin Testbed Set
+
+ SET_TYPE = SYSTEM
+ SET_NAME = Cpp_tunnel_lighting_system
+ GENERATED_BY = Testbed 9.5.2
+ HOSTNAME = GENERAL
+
+    # Begin Source Files
+
+    RelativeFile = ..\Source_Code\Cell.cpp
+    RelativeFile = ..\Source_Code\Tunnel.cpp
+    RelativeFile = ..\Source_Code\Systemdata.cpp
+    RelativeFile = ..\Source_Code\Mountings.cpp
+    RelativeFile = ..\Source_Code\Main.cpp
+    RelativeFile = ..\Source_Code\Lamptype.cpp
+    RelativeFile = ..\Source_Code\Lampmodel.cpp
+    RelativeFile = ..\Source_Code\Lamp.cpp
+    RelativeFile = ..\Source_Code\Datain.cpp
+    RelativeFile = ..\Source_Code\Zone.cpp
+
+    # End Source Files
+
+    # Begin Sysearch Include File Entries
+
+
+    # End Sysearch Include File Entries
+
+    # Begin Sysppvar Preprocessor Macros
+
+    MacroEntry = CppOnly 1
+
+    # End Sysppvar Preprocessor Macros
+
+    # Begin Attributes
+
+      Sequence Name = Cell
+      Language Code = 6
+      Version = 9.5.2
+
+    # End Attributes
+
+    # Begin Test Case
+
+      File = ..\Source_Code\Cell.cpp
+      Procedure = TunnelData::Cell::Cell
+      Procedure Number = 3
+      Member Of = 1
+      Creation Date = Dec 15 2014 10:26:00
+
+        # Begin Variable
+
+          Name = mLampTypeCount[0]
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeCount[1]
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMinLumens[0]
+          Decl_type = Float_64
+          Usage = N
+          Value = 0.000000e+000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMinLumens[1]
+          Decl_type = Float_64
+          Usage = N
+          Value = 0.000000e+000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMaxLumens[0]
+          Decl_type = Float_64
+          Usage = N
+          Value = 0.000000e+000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMaxLumens[1]
+          Decl_type = Float_64
+          Usage = N
+          Value = 0.000000e+000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLuminaireSetSize
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mUniqueCellID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[0].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[0].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[0].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[1].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[1].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[1].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[2].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[2].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[2].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[3].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[3].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[3].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[4].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[4].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[4].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[5].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[5].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[5].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[6].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[6].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[6].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[7].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[7].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[7].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[8].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[8].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[8].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[9].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[9].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[9].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[10].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[10].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[10].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[11].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[11].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[11].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[0]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[1]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[2]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[3]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[4]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[5]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[6]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[7]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[8]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[9]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[10]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[11]
+          Decl_type = TunnelData::Lamp
+          Usage = N
+
+        # End Removed Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = ..\Source_Code\Cell.cpp
+      Procedure = TunnelData::Cell::InitialiseCell
+      Procedure Number = 4
+      Member Of = 1
+      Creation Date = Dec 15 2014 10:26:54
+
+      # Begin Declarations
+
+static LampTypeID ldra_qq_lv_3[5];
+
+      # End Declarations
+
+        # Begin Variable
+
+          Name = LuminaireSetSize
+          Decl_type = Sint_32
+          Usage = Z
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = pLampTypeIDs
+          Decl_type = LampTypeID*
+          Usage = Z
+          Value = ldra_qq_lv_3
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = UniqueCellID
+          Decl_type = Sint_32
+          Usage = Z
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = pLampTypeIDs[0]
+          Decl_type = const LampTypeID
+          Usage = Z
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = pLampTypeIDs[1]
+          Decl_type = const LampTypeID
+          Usage = Z
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = pLampTypeIDs[2]
+          Decl_type = const LampTypeID
+          Usage = Z
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = pLampTypeIDs[3]
+          Decl_type = const LampTypeID
+          Usage = Z
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = pLampTypeIDs[4]
+          Decl_type = const LampTypeID
+          Usage = Z
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeCount[0]
+          Decl_type = Sint_32
+          Usage = M
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeCount[1]
+          Decl_type = Sint_32
+          Usage = M
+          Value = 1
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[0]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[10]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[11]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[1]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[2]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[3]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[4]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[5]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[6]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[7]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[8]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[9]
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[0].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[0].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[0].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[10].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[10].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[10].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 12
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[11].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[11].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[11].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 13
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[1].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[1].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[1].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 3
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[2].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[2].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[2].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[3].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[3].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[3].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 5
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[4].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[4].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[4].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 6
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[5].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[5].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[5].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 7
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[6].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[6].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[6].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 8
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[7].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[7].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[7].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 9
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[8].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[8].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[8].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 10
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[9].mLampModel
+          Decl_type = TunnelData::model
+          Usage = M
+          Value = TunnelData::LightSolo
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[9].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mThisLamp[9].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Value = 11
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = %
+          Decl_type = Bool
+          Usage = O
+          Value = true
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeCount[0]
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeCount[1]
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[0]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[10]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[11]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[1]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[2]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[3]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[4]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[5]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[6]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[7]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[8]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeID[9]
+          Decl_type = LampTypeID
+          Usage = N
+          Value = Brightest
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMaxLumens[0]
+          Decl_type = Float_64
+          Usage = N
+          Value = 0.000000e+000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMaxLumens[1]
+          Decl_type = Float_64
+          Usage = N
+          Value = 0.000000e+000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMinLumens[0]
+          Decl_type = Float_64
+          Usage = N
+          Value = 0.000000e+000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMinLumens[1]
+          Decl_type = Float_64
+          Usage = N
+          Value = 0.000000e+000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLuminaireSetSize
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mUniqueCellID
+          Decl_type = Sint_32
+          Usage = N
+          Value = 0
+
+        # End Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp [12].mLampModel
+          Decl_type = TunnelData::model
+          Usage = N
+          Packed = T
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp [12].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = N
+          Packed = T
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp [12].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = N
+          Packed = T
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[0]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[1]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[2]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[3]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[4]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[5]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[6]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[7]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[8]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[9]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[10]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp[11]
+          Decl_type = TunnelData::Lamp
+          Usage = M
+
+        # End Removed Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = ..\Source_Code\Cell.cpp
+      Procedure = TunnelData::Cell::SetEmergencyOutputLevel
+      Procedure Number = 5
+      Member Of = 1
+      Creation Date = Dec 15 2014 10:38:19
+
+        # Begin Variable
+
+          Name = mLuminaireSetSize
+          Decl_type = Sint_32
+          Usage = M
+          Value = 3
+
+        # End Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp [12].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Packed = T
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp [12].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Packed = T
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp
+          Decl_type = TunnelData::Lamp[12]
+          Usage = M
+          Frozen = T
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mLampTypeID [12]
+          Decl_type = LampTypeID
+          Usage = M
+          Packed = T
+
+        # End Removed Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = ..\Source_Code\Cell.cpp
+      Procedure = TunnelData::Cell::SetPoweredOutputLevel
+      Procedure Number = 6
+      Member Of = 1
+      Creation Date = Dec 15 2014 10:41:59
+
+        # Begin Variable
+
+          Name = LumensDemandPerMetre
+          Decl_type = Float_64
+          Usage = Z
+          Value = 5000.0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = CellSpacing
+          Decl_type = Float_64
+          Usage = Z
+          Value = 20
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLuminaireSetSize
+          Decl_type = Sint_32
+          Usage = M
+          Value = 3
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMinLumens[0]
+          Decl_type = Float_64
+          Usage = M
+          Value = 2000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMinLumens[1]
+          Decl_type = Float_64
+          Usage = M
+          Value = 2000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeCount[0]
+          Decl_type = Sint_32
+          Usage = M
+          Value = 5
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeCount[1]
+          Decl_type = Sint_32
+          Usage = M
+          Value = 10
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMaxLumens[0]
+          Decl_type = Float_64
+          Usage = M
+          Value = 6000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = mLampTypeMaxLumens[1]
+          Decl_type = Float_64
+          Usage = M
+          Value = 4000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = cout
+          Decl_type = stdio
+          Usage = D
+          TBrun Analysis = Suspended
+
+        # End Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp [12].mUniqueLampID
+          Decl_type = Sint_32
+          Usage = M
+          Packed = T
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp [12].mThisLampTypeID
+          Decl_type = LampTypeID
+          Usage = M
+          Packed = T
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mThisLamp
+          Decl_type = TunnelData::Lamp[12]
+          Usage = M
+          Frozen = T
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = mLampTypeID [12]
+          Decl_type = LampTypeID
+          Usage = M
+          Packed = T
+
+        # End Removed Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = ..\Source_Code\Cell.cpp
+      Procedure = TunnelData::Cell::CalculateCellOutput
+      Procedure Number = 7
+      Member Of = 1
+      Creation Date = Dec 15 2014 10:42:47
+
+        # Begin Variable
+
+          Name = LumensDemandPerMetre
+          Decl_type = Float_64
+          Usage = Z
+          Value = 5000
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = CellSpacing
+          Decl_type = Float_64
+          Usage = Z
+          Value = 20
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = %
+          Decl_type = Float_64
+          Usage = O
+          Value = 1.000000e+005
+
+        # End Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = ..\Source_Code\Cell.cpp
+      Procedure = TunnelData::Cell::GetLampModel
+      Procedure Number = 8
+      Member Of = 1
+      Creation Date = Dec 15 2014 10:43:41
+
+        # Begin Variable
+
+          Name = ThisLamp
+          Decl_type = Sint_32
+          Usage = Z
+          Value = 3
+
+        # End Variable
+
+        # Begin Removed Variable
+
+          Name = %
+          Decl_type = TunnelData::model
+          Usage = O
+
+        # End Removed Variable
+
+      # Begin TC Stub
+
+        Procedure = TunnelData::SystemData::GetSirenSpacing
+  Overloading = Prototype
+  CV Qualifiers = const
+
+  # Begin Overloading
+  # End Overloading
+
+        # Begin TC Stub Return Value
+
+          Name = %
+          Type = Sint_32
+          Value = 5
+
+        # End TC Stub Return Value
+
+      # End TC Stub
+
+      # Begin TC Stub
+
+        Procedure = TunnelData::SystemData::GetExitSignSpacing
+  Overloading = Prototype
+  CV Qualifiers = const
+
+  # Begin Overloading
+  # End Overloading
+
+        # Begin TC Stub Return Value
+
+          Name = %
+          Type = Sint_32
+          Value = 10
+
+        # End TC Stub Return Value
+
+      # End TC Stub
+
+    # End Test Case
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::Lamp::GetMaximumLumens
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::Lamp::GetMinimumLumens
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::Lamp::InitialiseLamp
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+const LampTypeID
+const Sint_32
+const TunnelData::model
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::Lamp::Lamp
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::Lamp::SendPowerToLamp
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+Sint_32
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::Lamp::SetLumensOutput
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+Float_64
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::Area
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::Drain
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::Height
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::LampAttributes
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+int
+int
+TunnelData::model
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampAttributes::Width
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampType::GetMaximumLumens
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampType::GetMinimumLumens
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampType::GetPowerRequired
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+Float_64
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampType::InitialiseLampType
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+const Float_64
+const Float_64
+const Sint_32
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::LampType::LampType
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SquareLamp::SquareLamp
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+int
+TunnelData::model
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+    # Begin Constructor Inits
+TunnelData::LampAttributes(l,l,ThisModel)
+    # End Constructor Inits
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::GetDaysBetweenCleaning
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::GetEmergencyLampLumens
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::GetExitSignSpacing
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::GetLampMaximumLumens
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+LampTypeID
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::GetLampMinimumLumens
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+LampTypeID
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::GetLampPowerRequired
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+LampTypeID
+Float_64
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::GetSirenSpacing
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::GetSoilingFactor
+  Method = Managed
+  Overloading = Prototype
+  CV Qualifier = const
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::InitialiseParams
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+Sint_32 *
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::Instance
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    Return Value = &ldra_qq_lv_1
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+    # Begin Local Declarations
+static TunnelData::SystemData ldra_qq_lv_1;
+    # End Local Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::SetDaysSinceCleaning
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+Sint_32
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Stub
+
+$ Stub based upon local stub
+
+  Procedure = TunnelData::SystemData::SystemData
+  Method = Managed
+  Overloading = Prototype
+
+  # Begin Overloading
+  # End Overloading
+
+  # Begin MS Properties
+
+    # Begin Declarations
+/* To Do : Enter code for stub global declarations here */
+
+    # End Declarations
+
+  # End MS Properties
+
+# End Stub
+
+# Begin Selected Files from Set
+
+..\Source_Code\Cell.cpp
+
+# End Selected Files from Set
+
+# Begin White Files
+
+..\Source_Code\Cell.cpp
+
+# End White Files
+

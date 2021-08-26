@@ -1,0 +1,3714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TBmanagerXML>
+    <THREAD>
+        <Unique_ID ref="45">1_th1</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Get Data and Read Content	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0100</Requirement_Number>
+            <Reference_Requirement>HLR_0215</Reference_Requirement>
+            <Reference_Requirement>HLR_0010</Reference_Requirement>
+            <Reference_Requirement>HLR_0200</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5190</Test_Case_Number>
+                <Description>Verify that TunnelData:DataIn::ReadContent loads .ini file and stores the data in SystemDataArray</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Get Data shall parse the tunnel lighting system initialisation data using a provided initialisation file</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetData</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Datain.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th2</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Initialise zone	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0490</Requirement_Number>
+            <Reference_Requirement>HLR_0120</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5590</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The zone class shall be configurable with the specified values</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th3</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Instantiate Cell	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0010</Requirement_Number>
+            <Reference_Requirement>HLR_0360</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5110</Test_Case_Number>
+                <Description>Verify that the Cell::Cell is correctly instantiated</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A Cell shall be instantiation with zero types of lamps, zero maximum lumens, zero minimum lumens, zero for the cell ID, and zero for the cell size</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>Cell</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Cell.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th4</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Display  total cell demand	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0090</Requirement_Number>
+            <Reference_Requirement>SYS_0050</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0070</Test_Case_Number>
+                <Description>The tunnel software output stream will provide the total cell demand and lumens per meter.
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>In the nominal power state, after entering a nominal range photometer input or nominal days since cleaning, the software shall display Total Cell demand and lumens per metre</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th5</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamps maximum output	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0231</Requirement_Number>
+            <Reference_Requirement>SYS_0120</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0250</Test_Case_Number>
+                <Description>The Tunnel software output produced to drive maximum lm/W levels will generate output levels no greater than 120 lm/w
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A lamp shall provide an output of 120lm/W when used at the maximum output more text</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th6</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Adjust Powered Lighting	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0125</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0120</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs will show calculations for all zones</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Given the photometer input lighting shall be calculated across all zones</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th7</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Initialise Lamp Attributes	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0170</Requirement_Number>
+            <Reference_Requirement>HLR_0170</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5260</Test_Case_Number>
+                <Description>Verify the instantiation and initialisation the lampattributes class with nominal range values for height, width, and tunndata::model</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A lampmodel shall be initialised by a provided height, width, and model</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>LampAttributes</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lampmodel.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th8</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Zone default intensity	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0480</Requirement_Number>
+            <Reference_Requirement>HLR_0130</Reference_Requirement>
+            <Reference_Requirement>HLR_0150</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5580</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The zone class shall set the default intensity to the brightest level for all the lamps in a luminaire.</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th9</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lighting control unit	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0060</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The Tunnel lighting system shall be controlled by a lighting control unit that will receive inputs from a power supply heath signal and an externally mounted photometer</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th10</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Initialisation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0340</Requirement_Number>
+            <Reference_Requirement>SYS_0020</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0320</Test_Case_Number>
+                <Description>The Tunnel software output  produced from photometer inputs, given a set of input configuration files, verified against expected output files will verify that data management capabilities of the software are being met
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>All software data shall be stored for management, tracking, and reporting</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th11</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Get Lamp Model Guide	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0070</Requirement_Number>
+            <Reference_Requirement>HLR_0160</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5180</Test_Case_Number>
+                <Description>Verify that for a given lamp and spacing for exit signs and sirens the correct lamp model is returned</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A Guide lamp model shall be applied if a lamp must be fitted with an exit sign</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetLampModel</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Cell.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th12</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Set Emergency output level 	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0030</Requirement_Number>
+            <Reference_Requirement>HLR_0220</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5125</Test_Case_Number>
+                <Description>Verify that Cell::SetEmergencyOutputLevel is set to its defined emergency demand level to minimize power demands</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>For emergency lighting, only the smallest lamp per luminaire shall be set to its defined emergency demand level to minimize power demands on emergency supplies</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>SetEmergencyOutputLevel</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Cell.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th13</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Query Get Lamp Minimum Lumens	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0380</Requirement_Number>
+            <Reference_Requirement>HLR_0210</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5480</Test_Case_Number>
+                <Description>Verify that TunnelData::SystemData::GetDaysBetweenClearning returns the mDaysBetweenCleaning correctly</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>For each lamp type minimum lamp lumens shall be returned upon query</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetLampMinimumLumens</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th14</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Adjust Powered Lighting	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0460</Requirement_Number>
+            <Reference_Requirement>HLR_0125</Reference_Requirement>
+            <Reference_Requirement>HLR_0237</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5560</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Given the photometer input in mAmps and powered conditions, the lighting output demands shall be adjusted across all zones</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th15</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Get Data and Read Content	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0110</Requirement_Number>
+            <Reference_Requirement>HLR_0010</Reference_Requirement>
+            <Reference_Requirement>HLR_0200</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5200</Test_Case_Number>
+                <Description>Verify that tokens are copied into ZoneData are the are parsed from the .ini file</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Get Data shall initialise system data using a provided initialisation file.</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>ReadContent</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Datain.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th16</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Cleanliness Factor</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0110</Requirement_Number>
+            <Reference_Requirement>SYS_0050</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0090</Test_Case_Number>
+                <Description>Name:  Soiling factor calculation for dirty
+Description:  Verify that soiling factor is calculated correctly per formula described in LLR_0355 in cases where the lamp is not clear 
+
+Inputs:
+1, 19 mAps
+
+Expected Output: 
+
+Total Cell Demand: 173840 at 8692 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40900
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40901
+ Lumens: 19710 Power Setting: 173 for lamp ID: 40902
+ Lumens: 19710 Power Setting: 173 for lamp ID: 40903
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40904
+Total Cell Demand: 183420 at 9171 per metre
+
+
+
+
+
+The Tunnel software output produced for varying levels of days since cleaning will shows a reduction of 50 percent reduction over a period of 182 days
+
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A percentage cleanliness factor shall be calculated depending on time elapsed since cleaning.  0% shall represent totally obscurity of the luminaires through the build up of grime; 100% shall represent complete cleanliness.  The rate of grime accumulation has been calculated by Waveworks Research Labs, their figures indicate a reduction to 50% over a period of 182 days</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th17</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Initialise Cell	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0020</Requirement_Number>
+            <Reference_Requirement>HLR_0360</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5120</Test_Case_Number>
+                <Description>Verify that a given is instantiated and initialised correctly</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A Cell shall be initialised by initialising both the cell parameters as well as the lamps within the cell</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>InitialiseCell</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Cell.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th18</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp sizes	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0120</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>A combination of different lamp sizes shall be utilised in each luminaire to allow efficiency to be optimised by the Lighting control unit</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th19</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Tunnel Lighting Output Demand Calculation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0120</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0110</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs will show calculations for each zone
+
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Lighting demand parameters for the tunnel shall be calculated and allocated to each zone</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th20</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Dimensions	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0180</Requirement_Number>
+            <Reference_Requirement>HLR_0170</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5270</Test_Case_Number>
+                <Description>Verify that the TunnelData::LampAttributes::Height() member function returns the height as expected for all possible width values</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A lampmodel shall provide its dimensions, height, width and area, when queried</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>Height</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lampmodel.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th21</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Failed Power Tunnel Lighting Output Calculation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0220</Requirement_Number>
+            <Reference_Requirement>SYS_0100</Reference_Requirement>
+            <Reference_Requirement>SYS_0090</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+            <Reference_Requirement>SYS_0060</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0230</Test_Case_Number>
+                <Description>The Tunnel software output when the power failure state is set shall have all lamp output set to the same calculated value.  Given a configuration set of files, the output for power failure must be compared to expected data files
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>In case of power failure, the power required for all low powered lamps to achieve specified lumens output shall be calculated</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th22</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Luminaries	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0070</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>Luminaires shall be industrial units sealed to comply with IP66 specifications.  Version 3.0 of the system includes provision for siren &amp; sign handling</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th23</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Instantiation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0330</Requirement_Number>
+            <Reference_Requirement>HLR_0340</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5460</Test_Case_Number>
+                <Description>Verify that all instance of the SystemData class are instantiated</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>System data shall be instantiated only once as this data will be global for the system</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>SystemData</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+            <Prototype>
+                <Name>Instance</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+            <Prototype>
+                <Name> =</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+            <Prototype>
+                <Name>SystemData</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th24</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Get Lamp Model Announcer	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0080</Requirement_Number>
+            <Reference_Requirement>HLR_0160</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5180</Test_Case_Number>
+                <Description>Verify that for a given lamp and spacing for exit signs and sirens the correct lamp model is returned</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>An Announcer lamp model shall be applied if a lamp must be fitted with a siren</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetLampModel</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Cell.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th25</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lighting Adjustment	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0100</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>Lighting shall be adjusted given photometer inputs and power failure conditions</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th26</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Query Get Lamp Emergency Lumens	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0390</Requirement_Number>
+            <Reference_Requirement>HLR_0210</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5490</Test_Case_Number>
+                <Description>Verify that TunnelData::SystemData::GetEmergencyLampLumens returns the mEmergencyLampLumens correctly</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Emergency lamp lumens shall be returned upon query</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetEmergencyLampLumens</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th27</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Adjust Emergency Lighting	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0470</Requirement_Number>
+            <Reference_Requirement>HLR_0125</Reference_Requirement>
+            <Reference_Requirement>HLR_0237</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5570</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Given the photometer input in mAmps and emergency conditions, the lighting output demands shall be adjusted across all zones to emergency levels</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th28</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options photometer input out of bounds	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0030</Requirement_Number>
+            <Reference_Requirement>SYS_0040</Reference_Requirement>
+            <Reference_Requirement>SYS_0010</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0030</Test_Case_Number>
+                <Description>For HMI selection, photometer input, days since cleaning inputs, if out of bounds inputs are entered, this shall result in the re-query for input data
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The software shall handle out of bound range inputs</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th29</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Initialise lighting system	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0270</Requirement_Number>
+            <Reference_Requirement>HLR_0215</Reference_Requirement>
+            <Reference_Requirement>HLR_0120</Reference_Requirement>
+            <Reference_Requirement>HLR_0010</Reference_Requirement>
+            <Reference_Requirement>HLR_0200</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The Tunnel lighting system software shall be initialised by an initialisation file that describes Tunnel width and zone data</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>main</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Main.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th30</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Set Lumens Output 	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0130</Requirement_Number>
+            <Reference_Requirement>HLR_0100</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5220</Test_Case_Number>
+                <Description>Verify that Lamp::SetLumensOutput outputs the number of lumens per lamp</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>When power is sent to a lamp, the number of lumens shall be outputted to the display</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>SetLumensOutput</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamp.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th31</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Days since cleaning input interface	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0290</Requirement_Number>
+            <Reference_Requirement>HLR_0110</Reference_Requirement>
+            <Reference_Requirement>HLR_0115</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <Requirement_Body>Number of days since cleaning shall be read in via the display input</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>main</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Main.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th32</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Set PoweredOutputLevel  	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0040</Requirement_Number>
+            <Reference_Requirement>HLR_0090</Reference_Requirement>
+            <Reference_Requirement>HLR_0360</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5130</Test_Case_Number>
+                <Description>Verify that powered output settings is  assigned consistently  for any given size of a lamp</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Powered output settings shall be computed and assigned, such that lamps used shall be at a consistent setting for any given size of a lamp</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>SetPoweredOutputLevel</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Cell.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th33</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Type Get Power Required	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0260</Requirement_Number>
+            <Reference_Requirement>HLR_0180</Reference_Requirement>
+            <Reference_Requirement>HLR_0233</Reference_Requirement>
+            <Reference_Requirement>HLR_0190</Reference_Requirement>
+            <Reference_Requirement>HLR_0232</Reference_Requirement>
+            <Reference_Requirement>HLR_0234</Reference_Requirement>
+            <Reference_Requirement>HLR_0235</Reference_Requirement>
+            <Reference_Requirement>HLR_0236</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5350</Test_Case_Number>
+                <Description>Verify that LampType::GetPowerRequired is calculating the power required for a given lamp is being correctly using the provided formula in the requirement</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The lamptype class shall provide the power it consumes for a specified amount of light in lumen units</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetPowerRequired</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamptype.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th34</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input option photometer nominal range</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0020</Requirement_Number>
+            <Reference_Requirement>SYS_0040</Reference_Requirement>
+            <Reference_Requirement>SYS_0010</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0020</Test_Case_Number>
+                <Description>Generated lamp output data will indicate that the tunnel lighting software has accepted the photometer input value as one in the acceptable range (4-20 mA)
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The software shall allow a real number value in the range 4-20 mAmps to be input for photometer input</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th35</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Required luminance at ground level	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0130</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The luminance provided at ground level shall be calculated based on the interior surface of the tunnel, the width of the tunnel, the efficiency of the luminaires, and the cleanliness of the lenses and the tunnel walls</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th36</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Dimensions	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0190</Requirement_Number>
+            <Reference_Requirement>HLR_0170</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5280</Test_Case_Number>
+                <Description>Verify that the TunnelData::LampAttributes::Width() member function returns the width as expected for all possible width values</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A lampmodel shall provide its dimensions, height, width and area, when queried</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>Width</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lampmodel.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th37</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Sirens and Signs</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0080</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The Tunnel lighting system shall include facilities for the handling of emergency exit signs and sirens.   These should include provision to allow the basic configuration of the system itself, in particular:  1. the number of lamps which can be positioned in a particular ceiling section, and 2. the current drain placed on emergency battery provision by each model of lamp, and by the system as a whole</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th38</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Initialisation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0340</Requirement_Number>
+            <Reference_Requirement>HLR_0340</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5640</Test_Case_Number>
+                <Description>Verify the Tunnel Data base values are initialised to zero</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>All system data tied to the tunnel lighting system as a whole shall be managed to provide data needed for system level data acquisition and decision making</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>InitialiseParams</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th39</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Get Lamp Model LightSolo	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0090</Requirement_Number>
+            <Reference_Requirement>HLR_0160</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5180</Test_Case_Number>
+                <Description>Verify that for a given lamp and spacing for exit signs and sirens the correct lamp model is returned</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A Lightsolo lamp model shall be applied if a lamp is not fitted with a siren or an exit sign</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetLampModel</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Cell.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th40</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Query Get Exit Sign Spacing	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0420</Requirement_Number>
+            <Reference_Requirement>HLR_0210</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5520</Test_Case_Number>
+                <Description>Verify that TunnelData::SystemData::GetExitSignSpacing returns the mExistSignSpacing correctly</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Exit sign spacing shall be returned upon query</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetExitSignSpacing</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th41</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Initialise Lamp 	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0120</Requirement_Number>
+            <Reference_Requirement>HLR_0231</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5210</Test_Case_Number>
+                <Description>Verify that Lamp::Lamp is called for construction of the Lamp object.  Additionally verify that Lamp::InitialiseLamp is called and correctly initialises the Lamp object
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Lamps shall be instantiated by default as the brightest setting, be assigned a lamptype, a unique lamp identifier, and a model identifier.</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>InitialiseLamp</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamp.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+            <Prototype>
+                <Name>Lamp</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamp.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th42</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Zone Lighting Formulae	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0130</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0130</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs shall show straight line calculations each zone</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A set of lighting demand straight line formulae shall be calculated to form a contiguous set for all zones</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th43</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Calculate and get soiling factor	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0350</Requirement_Number>
+            <Reference_Requirement>HLR_0110</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5080</Test_Case_Number>
+                <Description>Name: Soiling factor calculation for dirty
+
+Description: Verify that soiling factor is calculated correctly per formula described in LLR_0355 in cases where the lamp is not clear 
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5090</Test_Case_Number>
+                <Description>Name:  Soiling factor calculation for dirty
+Description:  Verify that soiling factor is calculated correctly per formula described in LLR_0355 in cases where the lamp is not clear 
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5100</Test_Case_Number>
+                <Description>Verify that soiling factor is calculated correctly per formula described in LLR_0355 in cases where the lamp is not clear 
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Based on days between cleaning system data shall calculate and return soiling factor as a percentage of efficiency</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetSoilingFactor</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th44</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Type Get Minimum Lumens	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0250</Requirement_Number>
+            <Reference_Requirement>HLR_0180</Reference_Requirement>
+            <Reference_Requirement>HLR_0233</Reference_Requirement>
+            <Reference_Requirement>HLR_0190</Reference_Requirement>
+            <Reference_Requirement>HLR_0232</Reference_Requirement>
+            <Reference_Requirement>HLR_0234</Reference_Requirement>
+            <Reference_Requirement>HLR_0235</Reference_Requirement>
+            <Reference_Requirement>HLR_0236</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5340</Test_Case_Number>
+                <Description>Verify that LampType::GetMaximumLumes is correctly retrieving the maximum lumens allowed for a given lamp</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The lamptype class shall provide its minimum output in Lumen units</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetMinimumLumens</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamptype.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th45</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Tunnel Lighting Output Handling	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0180</Requirement_Number>
+            <Reference_Requirement>SYS_0130</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0180</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs will show calculations for each lamp
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Commands shall be sent to all lamps to achieve appropriate output overall</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th46</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Dimensions	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0200</Requirement_Number>
+            <Reference_Requirement>HLR_0170</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5290</Test_Case_Number>
+                <Description>Verify that the TunnelData::LampAttributes::Area() member function returns the product of height and width  of a given lamp</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A lampmodel shall provide its dimensions, height, width and area, when queried</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>Area</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lampmodel.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th47</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Send Power to Lamp 	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0160</Requirement_Number>
+            <Reference_Requirement>HLR_0180</Reference_Requirement>
+            <Reference_Requirement>HLR_0100</Reference_Requirement>
+            <Reference_Requirement>HLR_0190</Reference_Requirement>
+            <Reference_Requirement>HLR_0230</Reference_Requirement>
+            <Reference_Requirement>HLR_0160</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5250</Test_Case_Number>
+                <Description>Verify that Lamp::SendPowerToLamp outputs the power setting for a given lamp id</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>When power is sent to a lamp with a power setting greater than zero, the power setting  and the lamp identifier shall be outputted to the display</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>SendPowerToLamp</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamp.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th48</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Failed Power Supply	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0090</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>Where there is a failure of the regular power supply to the lamps, a battery backup supply will be used. In order to conserve the batteries for as long as possible, the smallest lamp available in each luminaire will be utilised at the same low level</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th49</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Mountings Configuration	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0350</Requirement_Number>
+            <Reference_Requirement>SYS_0020</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0340</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs will show calculations for cell output.  Expected output files will be compared against this output to ensure that cell output is being computed correctly
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Mountings shall be configured by dimensions to describe the number of lamps within a mounting</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th50</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Type Get Maximum Lumens	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0240</Requirement_Number>
+            <Reference_Requirement>HLR_0180</Reference_Requirement>
+            <Reference_Requirement>HLR_0233</Reference_Requirement>
+            <Reference_Requirement>HLR_0190</Reference_Requirement>
+            <Reference_Requirement>HLR_0232</Reference_Requirement>
+            <Reference_Requirement>HLR_0234</Reference_Requirement>
+            <Reference_Requirement>HLR_0235</Reference_Requirement>
+            <Reference_Requirement>HLR_0236</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5330</Test_Case_Number>
+                <Description>Verify that LampType::GetMinimumLumes is correctly retrieving the minimum lumens allowed for a given lamp</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The lamptype class shall provide its maximum output in Lumen units</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetMaximumLumens</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamptype.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th51</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Minimum lamp output threshold	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0233</Requirement_Number>
+            <Reference_Requirement>SYS_0120</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0270</Test_Case_Number>
+                <Description>The Tunnel software output produced  for a range of inputs will demonstrate that lamps are turned off when a minimum percentage of maximum output levels are reached
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>No lamp shall be used at a required output of less than a configurable minimum percentage of its maximum output</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th52</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Get MaximumLumens 	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0140</Requirement_Number>
+            <Reference_Requirement>HLR_0160</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5230</Test_Case_Number>
+                <Description>Verify that Lamp::GetMaximumLumens() returns the Maximum lumens allowable for a given lamp when called</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>When queried, a lamp object shall be provide the maximum lumens it can support</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetMaximumLumens</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamp.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th53</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Display Lumens	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0100</Requirement_Number>
+            <Reference_Requirement>SYS_0010</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0080</Test_Case_Number>
+                <Description>The tunnel software output stream will provide the total cell demand 
+
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>In the nominal power state, after entering a nominal range photometer input or nominal days since cleaning, the software shall display lumens for each lamp, its power setting, and the lamp ID</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th54</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Query Get Siren Spacing	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0430</Requirement_Number>
+            <Reference_Requirement>HLR_0210</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5530</Test_Case_Number>
+                <Description>Verify that the Siren spacing is returned upon query</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Siren spacing shall be returned upon query</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetSirenSpacing</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th55</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Initialise Tunnel	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0440</Requirement_Number>
+            <Reference_Requirement>HLR_0010</Reference_Requirement>
+            <Reference_Requirement>HLR_0200</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5540</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The Tunnel lighting system data shall be initialised such that all zones and their data is populated upon start up</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th56</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options photometer input out of bounds	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0282</Requirement_Number>
+            <Reference_Requirement>HLR_0030</Reference_Requirement>
+            <Reference_Requirement>HLR_0237</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <Requirement_Body>If Photometer range values entered are less than</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>main</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Main.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th57</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Zone Lighting Output Demand Calculation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0140</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0140</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs will show calculations for each zone
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A lighting demand straight line formula shall be calculated for each individual zone</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th58</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Set Days Since Cleaning	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0400</Requirement_Number>
+            <Reference_Requirement>HLR_0110</Reference_Requirement>
+            <Reference_Requirement>HLR_0115</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5500</Test_Case_Number>
+                <Description>Verify that TunnelData::SystemData::DaysSinceCleaning returns the mDaysSinceCleaning correctly</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Days since cleaning shall be set when needed</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>SetDaysSinceCleaning</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th59</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Drain	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0210</Requirement_Number>
+            <Reference_Requirement>HLR_0232</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5300</Test_Case_Number>
+                <Description>Verify that emergency backup battery drain is calculated for a given type of device</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A lampmodel shall calculate and provide its current drain when on emergency battery backup based on the surface area of the lamp</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>Drain</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lampmodel.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th60</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Type Instantiation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0220</Requirement_Number>
+            <Reference_Requirement>HLR_0180</Reference_Requirement>
+            <Reference_Requirement>HLR_0190</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5310</Test_Case_Number>
+                <Description>Verify that LampType::LampType instantiates the LampType class</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The LampType class shall default to no output until initialised</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>LampType</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamptype.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th61</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Output Handling	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0190</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0190</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs will show calculations for all lamps.  These must be compared to expected output files to ensure that appropriate output levels commands are being sent
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Commands shall be sent to each individual lamp to ensure that appropriate output is achieved in each case</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th62</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options power failure	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0289</Requirement_Number>
+            <Reference_Requirement>HLR_0070</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The software shall allow the user to invoke the nominal power state</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>main</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Main.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th63</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Mounting Area Instantiation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0310</Requirement_Number>
+            <Reference_Requirement>HLR_0350</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5440</Test_Case_Number>
+                <Description>Verify that the  Mounting Area class is correctly instantiated given nominal values of height and width
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The MountArea class shall be initialised with the ceiling area available for mounting lamps specified by the length and breadth</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>MountingArea</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Mountings.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th64</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp output	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0232</Requirement_Number>
+            <Reference_Requirement>SYS_0120</Reference_Requirement>
+            <Reference_Requirement>SYS_0110</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0260</Test_Case_Number>
+                <Description>The Tunnel software output produced will verify linear calculation of lamp output from 120 lm/W to 60 lm/W
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Lamp output deterioration shall be computed linearly from 120 lm/W output from each lamp at maximum output, down to 0.2 x 120 / 0.4 = 60 lm/W at 20% output</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th65</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp extinguishing condition	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0234</Requirement_Number>
+            <Reference_Requirement>SYS_0120</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0280</Test_Case_Number>
+                <Description>The Tunnel software output produced  for a range of inputs will demonstrate that lamps are turned off when a minimum percentage of maximum output levels are reached
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>If for a given lamp the lighting demand drops to levels below the minimum percentage of the its maximum output, the lamp shall be extinguished</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th66</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Get Minimum Lumens 	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0150</Requirement_Number>
+            <Reference_Requirement>HLR_0160</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5240</Test_Case_Number>
+                <Description>Verify that Lamp::GetMinimumLumens() returns the minimum lumens allowable for a given lamp when called</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>When queried, a lamp object shall be provide the minimum lumens it can support</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetMinimumLumens</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamp.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th67</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options power failure	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0288</Requirement_Number>
+            <Reference_Requirement>HLR_0070</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The software shall allow the user to invoke the power failure state</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>main</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Main.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th68</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Photometer</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0040</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The Tunnel lighting system shall include a single photometer placed at the entrance of the tunnel.  The photometer will measure light intensity and provide this data to the lighting control unit.  Typically, such a meter will employ a light receptor filtered to provide a spectral response close to that of the average human eye. Its reaction to changes in light levels is virtually instantaneous.  The light receptor is used to measure average luminance (brightness) within an acceptance angle subtending 20º over a measurement range of 0-6500 cd/m2</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th69</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Starting display software</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0010</Requirement_Number>
+            <Reference_Requirement>SYS_0020</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0010</Test_Case_Number>
+                <Description>Given the configuration file data set, the output of nominal photometer input will reflect that configuration file data such as Tunnel width, zone layout, and other data has been correctly processed.  To verify this has been done accurately, expected results output files will be constructed and reviewed for accuracy.  The test inputs will be applied and the resulting output will be compared against the expected output files.
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Upon execution of the Tunnel lighting system software, the software shall read the Tunnel.ini file and query the user for an input.  Configuration files will provide the appropriate data for the example configuration of the system, as described in the document Tunnel Lighting Control System Overview.</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th70</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Set Lighting Output Demand Calculation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0150</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0150</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs will show calculations for each luminaire set
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Lighting demand shall be calculated for each luminaire set</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th71</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Exit sign battery drain	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0210</Requirement_Number>
+            <Reference_Requirement>SYS_0080</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0210</Test_Case_Number>
+                <Description>The Tunnel software output from photometer inputs will result in luminaries grouped in sets of one two or three.   Given specific configuration values from set of configuration input files expected output files must me compared to the tunnel software output to verify that luminaries grouping is defined as configured</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The system shall provide data to summarize emergency battery drain imposed by each individual siren &amp; exit sign, and by all such provision in the system as a whole</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th72</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Photometer input interface	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0280</Requirement_Number>
+            <Reference_Requirement>HLR_0020</Reference_Requirement>
+            <Reference_Requirement>HLR_0237</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <Requirement_Body>Photometer inputs shall be read in either via hardware or display input with input ranges between</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>main</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Main.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th73</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Query Set Days Between Cleaning	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0410</Requirement_Number>
+            <Reference_Requirement>HLR_0110</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5510</Test_Case_Number>
+                <Description>Verify that TunnelData::SystemData::GetDaysBetweenClearning returns the mDaysBetweenCleaning correctly</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Days between cleaning shall be returned upon query</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetDaysBetweenCleaning</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th74</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp output units	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0110</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The output from each lamp shall specified via a Digital Addressable Ballast (DAB) unit</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th75</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Type Initialisation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0230</Requirement_Number>
+            <Reference_Requirement>HLR_0180</Reference_Requirement>
+            <Reference_Requirement>HLR_0190</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5320</Test_Case_Number>
+                <Description>Verify that LampType::InitialiseLamptype initialises a lamp correctly given the maximum power, highest percentage output and lowest percentage output</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The lamptype class shall be initialised with its maximum power consumption as well as the maximum and minimum output percentages</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>InitialiseLampType</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Lamptype.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th76</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Failed Lamp Output Handling	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0230</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+            <Reference_Requirement>SYS_0060</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0240</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs will show calculations for each lamp
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Commands shall be sent to each individual lamp to achieve appropriate output</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th77</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options power failure	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0070</Requirement_Number>
+            <Reference_Requirement>SYS_0060</Reference_Requirement>
+            <Reference_Requirement>SYS_0010</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0060</Test_Case_Number>
+                <Description>After setting the power failure state, the tunnel software shall display lamp output data for power failure conditions.  This output file shall be compared to the reviewed output file for this state for the given Tunnel.ini configuration file.  There will be no differences
+
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The software shall allow the user to invoke all power states</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th78</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Mounting Area Number of Lamps	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0320</Requirement_Number>
+            <Reference_Requirement>HLR_0350</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5450</Test_Case_Number>
+                <Description>Verify that when given a lamp width and height for a nominal range values for length and breadth, the number of lamps are calculated by NumLamps such that the function returns (length/width * breadth/height)</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The MountArea class shall provide the number of lamps which will fit within its mounting area</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>NumLamps</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Mountings.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th79</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Zone assign emergency cell output	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0530</Requirement_Number>
+            <Reference_Requirement>HLR_0210</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5630</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The zone class shall assign the emergency cell output levels to conserve emergency power supplies</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th80</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Zone assign powered cells	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0520</Requirement_Number>
+            <Reference_Requirement>HLR_0130</Reference_Requirement>
+            <Reference_Requirement>HLR_0140</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5620</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The zone class shall assign the cell output in lumen units taking into account the distance of the cell from the beginning of the zone</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th81</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp on condition	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0235</Requirement_Number>
+            <Reference_Requirement>SYS_0120</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0290</Test_Case_Number>
+                <Description>The Tunnel software output produced  for a range of inputs will demonstrate that lamps are turned off when a minimum percentage of maximum output levels are reached
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>No lamp shall be turned on unless demand dictates to minimize efficiency overhead and unnecessary toggling</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th82</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Output Calculation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0030</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The Tunnel Lighting system shall manage output calculation in tiers so that lamps, cells, zones, and the tunnel can be controlled with the necessary granularity</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th83</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options days since cleaning nominal	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0286</Requirement_Number>
+            <Reference_Requirement>HLR_0050</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The software shall allow the user to set the number of days since cleaning between 0 and 182 days</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>main</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Main.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+            <Prototype>
+                <Name>GetSoilingFactor</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th84</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Photometer signal conversion	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0237</Requirement_Number>
+            <Reference_Requirement>SYS_0040</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0310</Test_Case_Number>
+                <Description>The Tunnel software output produced will demonstrate photometer inputs ranging from 4-20 mAmps produce expected outputs determined by comparison with expected output files.  From this 4 mAmps being considered zero luminance and 20 mAmps as 6,500 cd/m2 is to be inferred
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Photometer measurements shall be converted into an output signal of 4-20m/A (directly proportional to the luminance measurement (i.e. 4.0 m/A being given as zero luminance and 20 m/A as 6,500 cd/m2) for signal transmission to the Lighting Control Unit</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th85</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Initialisation and configuration	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0020</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The Tunnel Lighting system shall be configurable via an external file and take into account tunnel dimensions, zones, spacing for signs ,and efficiency factor</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th86</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Selection	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0160</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0160</Test_Case_Number>
+                <Description>The Tunnel software output produced for photometer inputs will that days since cleaning and resulting efficiency is being correctly factored in deciding which lamps are to be included and which to be excluded. Multiple expected results files must be compared with actual results based on different efficiency levels
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>For a particular set, lamps required for inclusion in satisfying current demand levels shall be selected, with efficiency a contributory factor</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th87</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options days since cleaning nominal	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0050</Requirement_Number>
+            <Reference_Requirement>SYS_0010</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0050</Test_Case_Number>
+                <Description>After setting the number of days since cleaning the tunnel software shall return to the HMI initial selection screen
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The software shall allow the user to set the number of days since cleaning</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th88</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Query Get Lamp Power Required	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0360</Requirement_Number>
+            <Reference_Requirement>HLR_0210</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5080</Test_Case_Number>
+                <Description>Name: Soiling factor calculation for dirty
+
+Description: Verify that soiling factor is calculated correctly per formula described in LLR_0355 in cases where the lamp is not clear 
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>For each lamp type power required shall be returned upon query</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetLampPowerRequired</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th89</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options days since cleaning out of bounds	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0287</Requirement_Number>
+            <Reference_Requirement>HLR_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <Requirement_Body>If a number of days since cleaning is entered less than zero or greater 182, the software shall prompt for input again</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>main</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Main.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th90</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Cleanliness efficiency factor	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0115</Requirement_Number>
+            <Reference_Requirement>SYS_0050</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0100</Test_Case_Number>
+                <Description>The Tunnel software output produced for the full range of cleanliness factors observable from the results (this is really not testable)
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A cleanliness efficiency factor shall be applied on a range from 1 (immediately after cleaning) to 0 (when dirt blanks out all luminaire output)</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th91</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Tunnel Lighting Configuration	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0200</Requirement_Number>
+            <Reference_Requirement>SYS_0130</Reference_Requirement>
+            <Reference_Requirement>SYS_0020</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0200</Test_Case_Number>
+                <Description>The Tunnel software output  produced from photometer inputs, given a set of input configuration files, will show lamp positioning is determined by configuration inputs on dimensions and zone layout.  The output produced must be compared with expected output data files to verify this calculation is being done correctly</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Configuration facilities shall be provided to facilitate the automatic calculation of the number of lamps which may be positioned in a particular tunnel ceiling area</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th92</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options exit	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0284</Requirement_Number>
+            <Reference_Requirement>HLR_0040</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0345</Test_Case_Number>
+                <Description>Text case data needs to be updated </Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The software shall offer the user an input option to exit the application from the user input display using the letter 'q' for quit</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>main</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Main.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th93</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Cell Configuration and output	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0360</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+            <Reference_Requirement>SYS_0020</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0330</Test_Case_Number>
+                <Description>The Tunnel software output  produced from photometer inputs, given a set of input configuration files, will show lamps per mounting are being correctly calculated.  Expected output results files will be compared against the produced output
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Cells output shall be computed based on demand for a given area</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th94</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Calculate cell output 	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0050</Requirement_Number>
+            <Reference_Requirement>HLR_0360</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5140</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The Cell output shall be calculated as the number of lumens demanded per metre multiplied by the cell spacing</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>CalculateCellOutput</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Cell.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th95</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Zone soiling power compensation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0510</Requirement_Number>
+            <Reference_Requirement>HLR_0130</Reference_Requirement>
+            <Reference_Requirement>HLR_0140</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5610</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The zone class shall increase the power to the lamps to compensate for lumen output reductions due to lamp soiling</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th96</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Display	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0010</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The Tunnel Lighting system shall provide an human machine interface for emulation of input and examination of output data</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th97</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Large lamp use	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0236</Requirement_Number>
+            <Reference_Requirement>SYS_0120</Reference_Requirement>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0300</Test_Case_Number>
+                <Description>The Tunnel software output produced  for a range of inputs will demonstrate that larger lamps are utilized initially and smaller lamps are added as increased power is needed.    As photometer inputs range from 4-20 mAmps, output data will show larger lamps being turned on in various zones first and then smaller lamps being turned on as needed.  When the range inputs are starting a higher number and decrementing, smaller lamps will turn off as their additional capacity isn't needed.  Actual output to be compared to expected output data file
+</Description>
+                <Status>Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Larger lamps shall be used to establish the minimum lighting level demanded of any particular set, with a combination of large and small lamps used to respond to fluctuations</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th98</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Lamp Lighting Output Demand Calculation	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0170</Requirement_Number>
+            <Reference_Requirement>SYS_0030</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0170</Test_Case_Number>
+                <Description>The Tunnel software output produced from photometer inputs will show calculations for each lamp
+</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Lighting demand shall be calculated for each individual lamp</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th99</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Input options exit	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0040</Requirement_Number>
+            <Reference_Requirement>SYS_0010</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The software shall allow the user to exit the application</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th100</Unique_ID>
+        <Thread_Type ref="47">9</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Cleanliness factor	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">SYS_0050</Requirement_Number>
+        </Requirement_Nomenclature>
+        <Requirement_Body>The Tunnel lighting system shall measure efficiency of lamps based on the number of days since cleaning the lamps</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th101</Unique_ID>
+        <Thread_Type ref="47">1</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Luminary configuration</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">HLR_0215</Requirement_Number>
+            <Reference_Requirement>SYS_0020</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">External Task</Type>
+                <Test_Case_Number>TCI_0220</Test_Case_Number>
+                <Description>The Tunnel software output  produced from photometer inputs, given a set of input configuration files, will show lamp grouping is determined by configuration inputs.</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Luminaries shall be grouped in sets of one, two, or three depending on where they lie in the tunnel.  Lamps within a set can be used in any combination to assist in the optimisation process, which means that the control system need have no concept of the discrete luminaires themselves, only of the sets to which they belong.  Luminary grouping will be described in the configuration file</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th102</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Get Lamp Model Duo	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0060</Requirement_Number>
+            <Reference_Requirement>HLR_0160</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5180</Test_Case_Number>
+                <Description>Verify that for a given lamp and spacing for exit signs and sirens the correct lamp model is returned</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>A Duo lamp model shall be applied if a lamp must be fitted by an exit sign and a siren</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetLampModel</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Cell.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th103</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Zone Calculate output coefficients	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0500</Requirement_Number>
+            <Reference_Requirement>HLR_0130</Reference_Requirement>
+            <Reference_Requirement>HLR_0140</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5600</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>The zone class shall determine the formula coefficients needed to determine the outputs in units of lumens/meter for a specific demand percentage</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th104</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">System Data Query Get Lamp Maximum Lumens	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0370</Requirement_Number>
+            <Reference_Requirement>HLR_0210</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5470</Test_Case_Number>
+                <Description>Verify that TunnelData::SystemData::GetDaysBetweenClearning returns the mDaysBetweenCleaning correctly</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>For each lamp type maximum lamp lumens shall be returned upon query</Requirement_Body>
+        <Mapped>Yes</Mapped>
+        <Test_Specification ref="13">
+            <Prototype>
+                <Name>GetLampMaximumLumens</Name>
+                <Source_File>C:\_LDRA_Workarea\986\Examples\Toolsuite\Tunnel_5.2\DO178\Source_Code\Systemdata.cpp</Source_File>
+                <Set>Cpp_tunnel_lighting_system</Set>
+            </Prototype>
+        </Test_Specification>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <THREAD>
+        <Unique_ID ref="45">1_th105</Unique_ID>
+        <Thread_Type ref="47">3</Thread_Type>
+        <Requirement_Nomenclature block="Requirement Nomenclature" ref="10">
+            <Requirement_Name ref="24">Adjust Tunnel Lighting	</Requirement_Name>
+            <Requirement_Document>..\Requirements</Requirement_Document>
+            <Requirement_Number ref="25">LLR_0450</Requirement_Number>
+            <Reference_Requirement>HLR_0125</Reference_Requirement>
+        </Requirement_Nomenclature>
+        <TestCases>
+            <Test_Case>
+                <Type ref="37">Low Level Test</Type>
+                <Test_Case_Number>TCI_5550</Test_Case_Number>
+                <Description>Low Level Requirements based tests</Description>
+                <Status>Not Passed</Status>
+            </Test_Case>
+        </TestCases>
+        <Requirement_Body>Depending on a power failure condition, lighting shall be adjusted according to powered lighting or emergency lighting</Requirement_Body>
+        <Mapped>No</Mapped>
+        <Test_Specification ref="13"/>
+        <Test_Management block="Test Management" ref="15">
+            <User block="User" ref="17">
+                <First_Name>Jane</First_Name>
+                <Last_Name>Wilson</Last_Name>
+                <Role>Project Manager</Role>
+                <Email>jane.wilson@ldra.com</Email>
+            </User>
+            <Verification_Status ref="107">Not Passed</Verification_Status>
+            <Suspended ref="131">No</Suspended>
+        </Test_Management>
+        <Deallocated ref="73"/>
+    </THREAD>
+    <Test_Case>
+        <Type ref="37">Low Level Test</Type>
+        <Test_Case_Number>TCI_5360</Test_Case_Number>
+        <Description>Low Level Requirements based tests</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Low Level Test</Type>
+        <Test_Case_Number>TCI_5370</Test_Case_Number>
+        <Description>Low Level Requirements based tests</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Low Level Test</Type>
+        <Test_Case_Number>TCI_5380</Test_Case_Number>
+        <Description>Low Level Requirements based tests</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Low Level Test</Type>
+        <Test_Case_Number>TCI_5390</Test_Case_Number>
+        <Description>Low Level Requirements based tests</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Low Level Test</Type>
+        <Test_Case_Number>TCI_5400</Test_Case_Number>
+        <Description>Low Level Requirements based tests</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Low Level Test</Type>
+        <Test_Case_Number>TCI_5410</Test_Case_Number>
+        <Description>Low Level Requirements based tests</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Low Level Test</Type>
+        <Test_Case_Number>TCI_5420</Test_Case_Number>
+        <Description>Low Level Requirements based tests</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Code Review</Type>
+        <Test_Case_Number>TCI_6090</Test_Case_Number>
+        <Description>Adherence to MISRA-C++:2008
+</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Low Level Test</Type>
+        <Test_Case_Number>TCI_5430</Test_Case_Number>
+        <Description>Low Level Requirements based tests</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Quality Review</Type>
+        <Test_Case_Number>TCI_6100</Test_Case_Number>
+        <Description>Quality Review</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Code Coverage</Type>
+        <Test_Case_Number>TCI_6110</Test_Case_Number>
+        <Description>Structural Coverage</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Dynamic Data Flow Coverage</Type>
+        <Test_Case_Number>TCI_6120</Test_Case_Number>
+        <Description>Dynamic data flow coverage</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">System Test</Type>
+        <Test_Case_Number>TCI_6126</Test_Case_Number>
+        <Description>Run Tunnel Lighting System in Interactive Mode</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Control Coupling</Type>
+        <Test_Case_Number>TCI_6130</Test_Case_Number>
+        <Description>Control Coupling Analysis</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+    <Test_Case>
+        <Type ref="37">Build Instrumented Program</Type>
+        <Test_Case_Number>TCI_6140</Test_Case_Number>
+        <Description>Test the Build Process and build the instrumented source code</Description>
+        <Status>Not Passed</Status>
+    </Test_Case>
+</TBmanagerXML>

@@ -1,0 +1,1675 @@
+
+Photometer Input: 4mA    Days since cleaning: 0    Power: Live 
+ 
+(0) quit (1) Photometer Input (4-20) 
+(2) Set days since cleaning (3) Toggle Power Failure Status: 
+
+Enter photometer input in range 4-20mA:  Lumens: 33333.3 Power Setting: 308 for lamp ID: 0
+ Lumens: 33333.3 Power Setting: 308 for lamp ID: 1
+ Lumens: 33333.3 Power Setting: 308 for lamp ID: 4
+Total Cell Demand: 100000 at 5000 per metre
+ Lumens: 32888.9 Power Setting: 305 for lamp ID: 100
+ Lumens: 32888.9 Power Setting: 305 for lamp ID: 101
+ Lumens: 32888.9 Power Setting: 305 for lamp ID: 104
+Total Cell Demand: 98666.7 at 4933.33 per metre
+ Lumens: 32444.4 Power Setting: 302 for lamp ID: 200
+ Lumens: 32444.4 Power Setting: 302 for lamp ID: 201
+ Lumens: 32444.4 Power Setting: 302 for lamp ID: 204
+Total Cell Demand: 97333.3 at 4866.67 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 300
+ Lumens: 48000 Power Setting: 400 for lamp ID: 301
+Total Cell Demand: 96000 at 4800 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 400
+ Lumens: 23333.3 Power Setting: 195 for lamp ID: 402
+ Lumens: 23333.3 Power Setting: 195 for lamp ID: 403
+Total Cell Demand: 94666.7 at 4733.33 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 500
+ Lumens: 22666.7 Power Setting: 191 for lamp ID: 502
+ Lumens: 22666.7 Power Setting: 191 for lamp ID: 503
+Total Cell Demand: 93333.3 at 4666.67 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 600
+ Lumens: 22000 Power Setting: 187 for lamp ID: 602
+ Lumens: 22000 Power Setting: 187 for lamp ID: 603
+Total Cell Demand: 92000 at 4600 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 700
+ Lumens: 21333.3 Power Setting: 183 for lamp ID: 702
+ Lumens: 21333.3 Power Setting: 183 for lamp ID: 703
+Total Cell Demand: 90666.7 at 4533.33 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 800
+ Lumens: 20666.7 Power Setting: 179 for lamp ID: 802
+ Lumens: 20666.7 Power Setting: 179 for lamp ID: 803
+Total Cell Demand: 89333.3 at 4466.67 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 900
+ Lumens: 20000 Power Setting: 175 for lamp ID: 902
+ Lumens: 20000 Power Setting: 175 for lamp ID: 903
+Total Cell Demand: 88000 at 4400 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1000
+ Lumens: 19333.3 Power Setting: 170 for lamp ID: 1002
+ Lumens: 19333.3 Power Setting: 170 for lamp ID: 1003
+Total Cell Demand: 86666.7 at 4333.33 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1100
+ Lumens: 18666.7 Power Setting: 166 for lamp ID: 1102
+ Lumens: 18666.7 Power Setting: 166 for lamp ID: 1103
+Total Cell Demand: 85333.3 at 4266.67 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1200
+ Lumens: 18000 Power Setting: 162 for lamp ID: 1202
+ Lumens: 18000 Power Setting: 162 for lamp ID: 1203
+Total Cell Demand: 84000 at 4200 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1300
+ Lumens: 17333.3 Power Setting: 158 for lamp ID: 1302
+ Lumens: 17333.3 Power Setting: 158 for lamp ID: 1303
+Total Cell Demand: 82666.7 at 4133.33 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1400
+ Lumens: 16666.7 Power Setting: 154 for lamp ID: 1402
+ Lumens: 16666.7 Power Setting: 154 for lamp ID: 1403
+Total Cell Demand: 81333.3 at 4066.67 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10000
+ Lumens: 16000 Power Setting: 150 for lamp ID: 10002
+ Lumens: 16000 Power Setting: 150 for lamp ID: 10003
+Total Cell Demand: 80000 at 4000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10100
+ Lumens: 15200 Power Setting: 145 for lamp ID: 10102
+ Lumens: 15200 Power Setting: 145 for lamp ID: 10103
+Total Cell Demand: 78400 at 3920 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10200
+ Lumens: 14400 Power Setting: 140 for lamp ID: 10202
+ Lumens: 14400 Power Setting: 140 for lamp ID: 10203
+Total Cell Demand: 76800 at 3840 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10300
+ Lumens: 13600 Power Setting: 135 for lamp ID: 10302
+ Lumens: 13600 Power Setting: 135 for lamp ID: 10303
+Total Cell Demand: 75200 at 3760 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10400
+ Lumens: 12800 Power Setting: 130 for lamp ID: 10402
+ Lumens: 12800 Power Setting: 130 for lamp ID: 10403
+Total Cell Demand: 73600 at 3680 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10500
+ Lumens: 24000 Power Setting: 200 for lamp ID: 10502
+Total Cell Demand: 72000 at 3600 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10600
+ Lumens: 22400 Power Setting: 190 for lamp ID: 10602
+Total Cell Demand: 70400 at 3520 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10700
+ Lumens: 20800 Power Setting: 180 for lamp ID: 10702
+Total Cell Demand: 68800 at 3440 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10800
+ Lumens: 19200 Power Setting: 170 for lamp ID: 10802
+Total Cell Demand: 67200 at 3360 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10900
+ Lumens: 17600 Power Setting: 160 for lamp ID: 10902
+Total Cell Demand: 65600 at 3280 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11000
+ Lumens: 16000 Power Setting: 150 for lamp ID: 11002
+Total Cell Demand: 64000 at 3200 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11100
+ Lumens: 14400 Power Setting: 140 for lamp ID: 11102
+Total Cell Demand: 62400 at 3120 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11200
+ Lumens: 12800 Power Setting: 130 for lamp ID: 11202
+Total Cell Demand: 60800 at 3040 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11300
+ Lumens: 11200 Power Setting: 120 for lamp ID: 11302
+Total Cell Demand: 59200 at 2960 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11400
+ Lumens: 9600 Power Setting: 110 for lamp ID: 11402
+Total Cell Demand: 57600 at 2880 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11500
+ Lumens: 8000 Power Setting: 100 for lamp ID: 11502
+Total Cell Demand: 56000 at 2800 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11600
+ Lumens: 6400 Power Setting: 90 for lamp ID: 11602
+Total Cell Demand: 54400 at 2720 per metre
+ Lumens: 26400 Power Setting: 265 for lamp ID: 11700
+ Lumens: 26400 Power Setting: 265 for lamp ID: 11701
+Total Cell Demand: 52800 at 2640 per metre
+ Lumens: 25600 Power Setting: 260 for lamp ID: 11800
+ Lumens: 25600 Power Setting: 260 for lamp ID: 11801
+Total Cell Demand: 51200 at 2560 per metre
+ Lumens: 24800 Power Setting: 255 for lamp ID: 11900
+ Lumens: 24800 Power Setting: 255 for lamp ID: 11901
+Total Cell Demand: 49600 at 2480 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12000
+Total Cell Demand: 48000 at 2400 per metre
+ Lumens: 23200 Power Setting: 195 for lamp ID: 12102
+ Lumens: 23200 Power Setting: 195 for lamp ID: 12103
+Total Cell Demand: 46400 at 2320 per metre
+ Lumens: 22400 Power Setting: 190 for lamp ID: 12202
+ Lumens: 22400 Power Setting: 190 for lamp ID: 12203
+Total Cell Demand: 44800 at 2240 per metre
+ Lumens: 21600 Power Setting: 185 for lamp ID: 12302
+ Lumens: 21600 Power Setting: 185 for lamp ID: 12303
+Total Cell Demand: 43200 at 2160 per metre
+ Lumens: 20800 Power Setting: 180 for lamp ID: 12402
+ Lumens: 20800 Power Setting: 180 for lamp ID: 12403
+Total Cell Demand: 41600 at 2080 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20000
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20002
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20100
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20102
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20200
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20202
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20300
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20302
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20400
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20402
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20500
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20502
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20600
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20602
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20700
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20702
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20800
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20802
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20900
+ Lumens: 12000 Power Setting: 125 for lamp ID: 20902
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21000
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21002
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21100
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21102
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21200
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21202
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21300
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21302
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21400
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21402
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21500
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21502
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21600
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21602
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21700
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21702
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21800
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21802
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21900
+ Lumens: 12000 Power Setting: 125 for lamp ID: 21902
+Total Cell Demand: 60000 at 2000 per metre
+ Lumens: 20000 Power Setting: 175 for lamp ID: 30002
+ Lumens: 20000 Power Setting: 175 for lamp ID: 30003
+Total Cell Demand: 40000 at 2000 per metre
+ Lumens: 20500 Power Setting: 178 for lamp ID: 30102
+ Lumens: 20500 Power Setting: 178 for lamp ID: 30103
+Total Cell Demand: 41000 at 2050 per metre
+ Lumens: 21000 Power Setting: 181 for lamp ID: 30202
+ Lumens: 21000 Power Setting: 181 for lamp ID: 30203
+Total Cell Demand: 42000 at 2100 per metre
+ Lumens: 21500 Power Setting: 184 for lamp ID: 30302
+ Lumens: 21500 Power Setting: 184 for lamp ID: 30303
+Total Cell Demand: 43000 at 2150 per metre
+ Lumens: 22000 Power Setting: 187 for lamp ID: 30402
+ Lumens: 22000 Power Setting: 187 for lamp ID: 30403
+Total Cell Demand: 44000 at 2200 per metre
+ Lumens: 22500 Power Setting: 190 for lamp ID: 30502
+ Lumens: 22500 Power Setting: 190 for lamp ID: 30503
+Total Cell Demand: 45000 at 2250 per metre
+ Lumens: 23000 Power Setting: 193 for lamp ID: 30602
+ Lumens: 23000 Power Setting: 193 for lamp ID: 30603
+Total Cell Demand: 46000 at 2300 per metre
+ Lumens: 23500 Power Setting: 196 for lamp ID: 30702
+ Lumens: 23500 Power Setting: 196 for lamp ID: 30703
+Total Cell Demand: 47000 at 2350 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30800
+Total Cell Demand: 48000 at 2400 per metre
+ Lumens: 24500 Power Setting: 253 for lamp ID: 30900
+ Lumens: 24500 Power Setting: 253 for lamp ID: 30901
+Total Cell Demand: 49000 at 2450 per metre
+ Lumens: 25000 Power Setting: 256 for lamp ID: 31000
+ Lumens: 25000 Power Setting: 256 for lamp ID: 31001
+Total Cell Demand: 50000 at 2500 per metre
+ Lumens: 25500 Power Setting: 259 for lamp ID: 31100
+ Lumens: 25500 Power Setting: 259 for lamp ID: 31101
+Total Cell Demand: 51000 at 2550 per metre
+ Lumens: 26000 Power Setting: 262 for lamp ID: 31200
+ Lumens: 26000 Power Setting: 262 for lamp ID: 31201
+Total Cell Demand: 52000 at 2600 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31300
+ Lumens: 5000 Power Setting: 81 for lamp ID: 31302
+Total Cell Demand: 53000 at 2650 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31400
+ Lumens: 6000 Power Setting: 87 for lamp ID: 31402
+Total Cell Demand: 54000 at 2700 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31500
+ Lumens: 7000 Power Setting: 93 for lamp ID: 31502
+Total Cell Demand: 55000 at 2750 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31600
+ Lumens: 8000 Power Setting: 100 for lamp ID: 31602
+Total Cell Demand: 56000 at 2800 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31700
+ Lumens: 9000 Power Setting: 106 for lamp ID: 31702
+Total Cell Demand: 57000 at 2850 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31800
+ Lumens: 10000 Power Setting: 112 for lamp ID: 31802
+Total Cell Demand: 58000 at 2900 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31900
+ Lumens: 11000 Power Setting: 118 for lamp ID: 31902
+Total Cell Demand: 59000 at 2950 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40000
+ Lumens: 12000 Power Setting: 125 for lamp ID: 40002
+Total Cell Demand: 60000 at 3000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40100
+ Lumens: 16000 Power Setting: 150 for lamp ID: 40102
+Total Cell Demand: 64000 at 3200 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40200
+ Lumens: 20000 Power Setting: 175 for lamp ID: 40202
+Total Cell Demand: 68000 at 3400 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40300
+ Lumens: 24000 Power Setting: 200 for lamp ID: 40302
+Total Cell Demand: 72000 at 3600 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40400
+ Lumens: 14000 Power Setting: 137 for lamp ID: 40402
+ Lumens: 14000 Power Setting: 137 for lamp ID: 40403
+Total Cell Demand: 76000 at 3800 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40500
+ Lumens: 16000 Power Setting: 150 for lamp ID: 40502
+ Lumens: 16000 Power Setting: 150 for lamp ID: 40503
+Total Cell Demand: 80000 at 4000 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40600
+ Lumens: 18000 Power Setting: 162 for lamp ID: 40602
+ Lumens: 18000 Power Setting: 162 for lamp ID: 40603
+Total Cell Demand: 84000 at 4200 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40700
+ Lumens: 20000 Power Setting: 175 for lamp ID: 40702
+ Lumens: 20000 Power Setting: 175 for lamp ID: 40703
+Total Cell Demand: 88000 at 4400 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40800
+ Lumens: 22000 Power Setting: 187 for lamp ID: 40802
+ Lumens: 22000 Power Setting: 187 for lamp ID: 40803
+Total Cell Demand: 92000 at 4600 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40900
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40901
+Total Cell Demand: 96000 at 4800 per metre
+
+Photometer Input: 4mA    Days since cleaning: 0    Power: Live 
+ 
+(0) quit (1) Photometer Input (4-20) 
+(2) Set days since cleaning (3) Toggle Power Failure Status: 
+
+Enter days since cleaning in the range 0-182 :  Lumens: 33516.5 Power Setting: 309 for lamp ID: 0
+ Lumens: 33516.5 Power Setting: 309 for lamp ID: 1
+ Lumens: 33516.5 Power Setting: 309 for lamp ID: 4
+Total Cell Demand: 100549 at 5027.47 per metre
+ Lumens: 33069.6 Power Setting: 306 for lamp ID: 100
+ Lumens: 33069.6 Power Setting: 306 for lamp ID: 101
+ Lumens: 33069.6 Power Setting: 306 for lamp ID: 104
+Total Cell Demand: 99208.8 at 4960.44 per metre
+ Lumens: 32622.7 Power Setting: 303 for lamp ID: 200
+ Lumens: 32622.7 Power Setting: 303 for lamp ID: 201
+ Lumens: 32622.7 Power Setting: 303 for lamp ID: 204
+Total Cell Demand: 97868.1 at 4893.41 per metre
+ Lumens: 32175.8 Power Setting: 301 for lamp ID: 300
+ Lumens: 32175.8 Power Setting: 301 for lamp ID: 301
+ Lumens: 32175.8 Power Setting: 301 for lamp ID: 304
+Total Cell Demand: 96527.5 at 4826.37 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 400
+ Lumens: 23593.4 Power Setting: 197 for lamp ID: 402
+ Lumens: 23593.4 Power Setting: 197 for lamp ID: 403
+Total Cell Demand: 95186.8 at 4759.34 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 500
+ Lumens: 22923.1 Power Setting: 193 for lamp ID: 502
+ Lumens: 22923.1 Power Setting: 193 for lamp ID: 503
+Total Cell Demand: 93846.2 at 4692.31 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 600
+ Lumens: 22252.7 Power Setting: 189 for lamp ID: 602
+ Lumens: 22252.7 Power Setting: 189 for lamp ID: 603
+Total Cell Demand: 92505.5 at 4625.27 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 700
+ Lumens: 21582.4 Power Setting: 184 for lamp ID: 702
+ Lumens: 21582.4 Power Setting: 184 for lamp ID: 703
+Total Cell Demand: 91164.8 at 4558.24 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 800
+ Lumens: 20912.1 Power Setting: 180 for lamp ID: 802
+ Lumens: 20912.1 Power Setting: 180 for lamp ID: 803
+Total Cell Demand: 89824.2 at 4491.21 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 900
+ Lumens: 20241.8 Power Setting: 176 for lamp ID: 902
+ Lumens: 20241.8 Power Setting: 176 for lamp ID: 903
+Total Cell Demand: 88483.5 at 4424.18 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1000
+ Lumens: 19571.4 Power Setting: 172 for lamp ID: 1002
+ Lumens: 19571.4 Power Setting: 172 for lamp ID: 1003
+Total Cell Demand: 87142.9 at 4357.14 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1100
+ Lumens: 18901.1 Power Setting: 168 for lamp ID: 1102
+ Lumens: 18901.1 Power Setting: 168 for lamp ID: 1103
+Total Cell Demand: 85802.2 at 4290.11 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1200
+ Lumens: 18230.8 Power Setting: 163 for lamp ID: 1202
+ Lumens: 18230.8 Power Setting: 163 for lamp ID: 1203
+Total Cell Demand: 84461.5 at 4223.08 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1300
+ Lumens: 17560.4 Power Setting: 159 for lamp ID: 1302
+ Lumens: 17560.4 Power Setting: 159 for lamp ID: 1303
+Total Cell Demand: 83120.9 at 4156.04 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1400
+ Lumens: 16890.1 Power Setting: 155 for lamp ID: 1402
+ Lumens: 16890.1 Power Setting: 155 for lamp ID: 1403
+Total Cell Demand: 81780.2 at 4089.01 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10000
+ Lumens: 16219.8 Power Setting: 151 for lamp ID: 10002
+ Lumens: 16219.8 Power Setting: 151 for lamp ID: 10003
+Total Cell Demand: 80439.6 at 4021.98 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10100
+ Lumens: 15415.4 Power Setting: 146 for lamp ID: 10102
+ Lumens: 15415.4 Power Setting: 146 for lamp ID: 10103
+Total Cell Demand: 78830.8 at 3941.54 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10200
+ Lumens: 14611 Power Setting: 141 for lamp ID: 10202
+ Lumens: 14611 Power Setting: 141 for lamp ID: 10203
+Total Cell Demand: 77222 at 3861.1 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10300
+ Lumens: 13806.6 Power Setting: 136 for lamp ID: 10302
+ Lumens: 13806.6 Power Setting: 136 for lamp ID: 10303
+Total Cell Demand: 75613.2 at 3780.66 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10400
+ Lumens: 13002.2 Power Setting: 131 for lamp ID: 10402
+ Lumens: 13002.2 Power Setting: 131 for lamp ID: 10403
+Total Cell Demand: 74004.4 at 3700.22 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10500
+ Lumens: 12197.8 Power Setting: 126 for lamp ID: 10502
+ Lumens: 12197.8 Power Setting: 126 for lamp ID: 10503
+Total Cell Demand: 72395.6 at 3619.78 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10600
+ Lumens: 22786.8 Power Setting: 192 for lamp ID: 10602
+Total Cell Demand: 70786.8 at 3539.34 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10700
+ Lumens: 21178 Power Setting: 182 for lamp ID: 10702
+Total Cell Demand: 69178 at 3458.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10800
+ Lumens: 19569.2 Power Setting: 172 for lamp ID: 10802
+Total Cell Demand: 67569.2 at 3378.46 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10900
+ Lumens: 17960.4 Power Setting: 162 for lamp ID: 10902
+Total Cell Demand: 65960.4 at 3298.02 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11000
+ Lumens: 16351.6 Power Setting: 152 for lamp ID: 11002
+Total Cell Demand: 64351.6 at 3217.58 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11100
+ Lumens: 14742.9 Power Setting: 142 for lamp ID: 11102
+Total Cell Demand: 62742.9 at 3137.14 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11200
+ Lumens: 13134.1 Power Setting: 132 for lamp ID: 11202
+Total Cell Demand: 61134.1 at 3056.7 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11300
+ Lumens: 11525.3 Power Setting: 122 for lamp ID: 11302
+Total Cell Demand: 59525.3 at 2976.26 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11400
+ Lumens: 9916.48 Power Setting: 111 for lamp ID: 11402
+Total Cell Demand: 57916.5 at 2895.82 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11500
+ Lumens: 8307.69 Power Setting: 101 for lamp ID: 11502
+Total Cell Demand: 56307.7 at 2815.38 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11600
+ Lumens: 6698.9 Power Setting: 91 for lamp ID: 11602
+Total Cell Demand: 54698.9 at 2734.95 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11700
+ Lumens: 5090.11 Power Setting: 81 for lamp ID: 11702
+Total Cell Demand: 53090.1 at 2654.51 per metre
+ Lumens: 25740.7 Power Setting: 260 for lamp ID: 11800
+ Lumens: 25740.7 Power Setting: 260 for lamp ID: 11801
+Total Cell Demand: 51481.3 at 2574.07 per metre
+ Lumens: 24936.3 Power Setting: 255 for lamp ID: 11900
+ Lumens: 24936.3 Power Setting: 255 for lamp ID: 11901
+Total Cell Demand: 49872.5 at 2493.63 per metre
+ Lumens: 24131.9 Power Setting: 250 for lamp ID: 12000
+ Lumens: 24131.9 Power Setting: 250 for lamp ID: 12001
+Total Cell Demand: 48263.7 at 2413.19 per metre
+ Lumens: 23327.5 Power Setting: 195 for lamp ID: 12102
+ Lumens: 23327.5 Power Setting: 195 for lamp ID: 12103
+Total Cell Demand: 46654.9 at 2332.75 per metre
+ Lumens: 22523.1 Power Setting: 190 for lamp ID: 12202
+ Lumens: 22523.1 Power Setting: 190 for lamp ID: 12203
+Total Cell Demand: 45046.2 at 2252.31 per metre
+ Lumens: 21718.7 Power Setting: 185 for lamp ID: 12302
+ Lumens: 21718.7 Power Setting: 185 for lamp ID: 12303
+Total Cell Demand: 43437.4 at 2171.87 per metre
+ Lumens: 20914.3 Power Setting: 180 for lamp ID: 12402
+ Lumens: 20914.3 Power Setting: 180 for lamp ID: 12403
+Total Cell Demand: 41828.6 at 2091.43 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20000
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20002
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20100
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20102
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20200
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20202
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20300
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20302
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20400
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20402
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20500
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20502
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20600
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20602
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20700
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20702
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20800
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20802
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20900
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 20902
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21000
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21002
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21100
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21102
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21200
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21202
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21300
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21302
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21400
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21402
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21500
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21502
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21600
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21602
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21700
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21702
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21800
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21802
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21900
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 21902
+Total Cell Demand: 60329.7 at 2010.99 per metre
+ Lumens: 20109.9 Power Setting: 175 for lamp ID: 30002
+ Lumens: 20109.9 Power Setting: 175 for lamp ID: 30003
+Total Cell Demand: 40219.8 at 2010.99 per metre
+ Lumens: 20612.6 Power Setting: 178 for lamp ID: 30102
+ Lumens: 20612.6 Power Setting: 178 for lamp ID: 30103
+Total Cell Demand: 41225.3 at 2061.26 per metre
+ Lumens: 21115.4 Power Setting: 181 for lamp ID: 30202
+ Lumens: 21115.4 Power Setting: 181 for lamp ID: 30203
+Total Cell Demand: 42230.8 at 2111.54 per metre
+ Lumens: 21618.1 Power Setting: 185 for lamp ID: 30302
+ Lumens: 21618.1 Power Setting: 185 for lamp ID: 30303
+Total Cell Demand: 43236.3 at 2161.81 per metre
+ Lumens: 22120.9 Power Setting: 188 for lamp ID: 30402
+ Lumens: 22120.9 Power Setting: 188 for lamp ID: 30403
+Total Cell Demand: 44241.8 at 2212.09 per metre
+ Lumens: 22623.6 Power Setting: 191 for lamp ID: 30502
+ Lumens: 22623.6 Power Setting: 191 for lamp ID: 30503
+Total Cell Demand: 45247.3 at 2262.36 per metre
+ Lumens: 23126.4 Power Setting: 194 for lamp ID: 30602
+ Lumens: 23126.4 Power Setting: 194 for lamp ID: 30603
+Total Cell Demand: 46252.7 at 2312.64 per metre
+ Lumens: 23629.1 Power Setting: 197 for lamp ID: 30702
+ Lumens: 23629.1 Power Setting: 197 for lamp ID: 30703
+Total Cell Demand: 47258.2 at 2362.91 per metre
+ Lumens: 24131.9 Power Setting: 250 for lamp ID: 30800
+ Lumens: 24131.9 Power Setting: 250 for lamp ID: 30801
+Total Cell Demand: 48263.7 at 2413.19 per metre
+ Lumens: 24634.6 Power Setting: 253 for lamp ID: 30900
+ Lumens: 24634.6 Power Setting: 253 for lamp ID: 30901
+Total Cell Demand: 49269.2 at 2463.46 per metre
+ Lumens: 25137.4 Power Setting: 257 for lamp ID: 31000
+ Lumens: 25137.4 Power Setting: 257 for lamp ID: 31001
+Total Cell Demand: 50274.7 at 2513.74 per metre
+ Lumens: 25640.1 Power Setting: 260 for lamp ID: 31100
+ Lumens: 25640.1 Power Setting: 260 for lamp ID: 31101
+Total Cell Demand: 51280.2 at 2564.01 per metre
+ Lumens: 26142.9 Power Setting: 263 for lamp ID: 31200
+ Lumens: 26142.9 Power Setting: 263 for lamp ID: 31201
+Total Cell Demand: 52285.7 at 2614.29 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31300
+ Lumens: 5291.21 Power Setting: 83 for lamp ID: 31302
+Total Cell Demand: 53291.2 at 2664.56 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31400
+ Lumens: 6296.7 Power Setting: 89 for lamp ID: 31402
+Total Cell Demand: 54296.7 at 2714.84 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31500
+ Lumens: 7302.2 Power Setting: 95 for lamp ID: 31502
+Total Cell Demand: 55302.2 at 2765.11 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31600
+ Lumens: 8307.69 Power Setting: 101 for lamp ID: 31602
+Total Cell Demand: 56307.7 at 2815.38 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31700
+ Lumens: 9313.19 Power Setting: 108 for lamp ID: 31702
+Total Cell Demand: 57313.2 at 2865.66 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31800
+ Lumens: 10318.7 Power Setting: 114 for lamp ID: 31802
+Total Cell Demand: 58318.7 at 2915.93 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31900
+ Lumens: 11324.2 Power Setting: 120 for lamp ID: 31902
+Total Cell Demand: 59324.2 at 2966.21 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40000
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 40002
+Total Cell Demand: 60329.7 at 3016.48 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40100
+ Lumens: 16351.6 Power Setting: 152 for lamp ID: 40102
+Total Cell Demand: 64351.6 at 3217.58 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40200
+ Lumens: 20373.6 Power Setting: 177 for lamp ID: 40202
+Total Cell Demand: 68373.6 at 3418.68 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40300
+ Lumens: 12197.8 Power Setting: 126 for lamp ID: 40302
+ Lumens: 12197.8 Power Setting: 126 for lamp ID: 40303
+Total Cell Demand: 72395.6 at 3619.78 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40400
+ Lumens: 14208.8 Power Setting: 138 for lamp ID: 40402
+ Lumens: 14208.8 Power Setting: 138 for lamp ID: 40403
+Total Cell Demand: 76417.6 at 3820.88 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40500
+ Lumens: 16219.8 Power Setting: 151 for lamp ID: 40502
+ Lumens: 16219.8 Power Setting: 151 for lamp ID: 40503
+Total Cell Demand: 80439.6 at 4021.98 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40600
+ Lumens: 18230.8 Power Setting: 163 for lamp ID: 40602
+ Lumens: 18230.8 Power Setting: 163 for lamp ID: 40603
+Total Cell Demand: 84461.5 at 4223.08 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40700
+ Lumens: 20241.8 Power Setting: 176 for lamp ID: 40702
+ Lumens: 20241.8 Power Setting: 176 for lamp ID: 40703
+Total Cell Demand: 88483.5 at 4424.18 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40800
+ Lumens: 22252.7 Power Setting: 189 for lamp ID: 40802
+ Lumens: 22252.7 Power Setting: 189 for lamp ID: 40803
+Total Cell Demand: 92505.5 at 4625.27 per metre
+ Lumens: 32175.8 Power Setting: 301 for lamp ID: 40900
+ Lumens: 32175.8 Power Setting: 301 for lamp ID: 40901
+ Lumens: 32175.8 Power Setting: 301 for lamp ID: 40904
+Total Cell Demand: 96527.5 at 4826.37 per metre
+
+Photometer Input: 4mA    Days since cleaning: 1    Power: Live 
+ 
+(0) quit (1) Photometer Input (4-20) 
+(2) Set days since cleaning (3) Toggle Power Failure Status: 
+
+Enter days since cleaning in the range 0-182 :  Lumens: 48000 Power Setting: 400 for lamp ID: 0
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1
+ Lumens: 10945.1 Power Setting: 118 for lamp ID: 2
+ Lumens: 48000 Power Setting: 400 for lamp ID: 4
+Total Cell Demand: 154945 at 7747.25 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 100
+ Lumens: 48000 Power Setting: 400 for lamp ID: 101
+ Lumens: 8879.12 Power Setting: 105 for lamp ID: 102
+ Lumens: 48000 Power Setting: 400 for lamp ID: 104
+Total Cell Demand: 152879 at 7643.96 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 200
+ Lumens: 48000 Power Setting: 400 for lamp ID: 201
+ Lumens: 6813.19 Power Setting: 92 for lamp ID: 202
+ Lumens: 48000 Power Setting: 400 for lamp ID: 204
+Total Cell Demand: 150813 at 7540.66 per metre
+ Lumens: 37186.8 Power Setting: 332 for lamp ID: 300
+ Lumens: 37186.8 Power Setting: 332 for lamp ID: 301
+ Lumens: 37186.8 Power Setting: 332 for lamp ID: 304
+ Lumens: 37186.8 Power Setting: 332 for lamp ID: 305
+Total Cell Demand: 148747 at 7437.36 per metre
+ Lumens: 36670.3 Power Setting: 329 for lamp ID: 400
+ Lumens: 36670.3 Power Setting: 329 for lamp ID: 401
+ Lumens: 36670.3 Power Setting: 329 for lamp ID: 404
+ Lumens: 36670.3 Power Setting: 329 for lamp ID: 405
+Total Cell Demand: 146681 at 7334.07 per metre
+ Lumens: 36153.8 Power Setting: 325 for lamp ID: 500
+ Lumens: 36153.8 Power Setting: 325 for lamp ID: 501
+ Lumens: 36153.8 Power Setting: 325 for lamp ID: 504
+ Lumens: 36153.8 Power Setting: 325 for lamp ID: 505
+Total Cell Demand: 144615 at 7230.77 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 600
+ Lumens: 48000 Power Setting: 400 for lamp ID: 601
+ Lumens: 23274.7 Power Setting: 195 for lamp ID: 602
+ Lumens: 23274.7 Power Setting: 195 for lamp ID: 603
+Total Cell Demand: 142549 at 7127.47 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 700
+ Lumens: 48000 Power Setting: 400 for lamp ID: 701
+ Lumens: 22241.8 Power Setting: 189 for lamp ID: 702
+ Lumens: 22241.8 Power Setting: 189 for lamp ID: 703
+Total Cell Demand: 140484 at 7024.18 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 800
+ Lumens: 48000 Power Setting: 400 for lamp ID: 801
+ Lumens: 21208.8 Power Setting: 182 for lamp ID: 802
+ Lumens: 21208.8 Power Setting: 182 for lamp ID: 803
+Total Cell Demand: 138418 at 6920.88 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 900
+ Lumens: 48000 Power Setting: 400 for lamp ID: 901
+ Lumens: 20175.8 Power Setting: 176 for lamp ID: 902
+ Lumens: 20175.8 Power Setting: 176 for lamp ID: 903
+Total Cell Demand: 136352 at 6817.58 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1000
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1001
+ Lumens: 19142.9 Power Setting: 169 for lamp ID: 1002
+ Lumens: 19142.9 Power Setting: 169 for lamp ID: 1003
+Total Cell Demand: 134286 at 6714.29 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1100
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1101
+ Lumens: 18109.9 Power Setting: 163 for lamp ID: 1102
+ Lumens: 18109.9 Power Setting: 163 for lamp ID: 1103
+Total Cell Demand: 132220 at 6610.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1200
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1201
+ Lumens: 17076.9 Power Setting: 156 for lamp ID: 1202
+ Lumens: 17076.9 Power Setting: 156 for lamp ID: 1203
+Total Cell Demand: 130154 at 6507.69 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1300
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1301
+ Lumens: 16044 Power Setting: 150 for lamp ID: 1302
+ Lumens: 16044 Power Setting: 150 for lamp ID: 1303
+Total Cell Demand: 128088 at 6404.4 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1400
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1401
+ Lumens: 15011 Power Setting: 143 for lamp ID: 1402
+ Lumens: 15011 Power Setting: 143 for lamp ID: 1403
+Total Cell Demand: 126022 at 6301.1 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10000
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10001
+ Lumens: 13978 Power Setting: 137 for lamp ID: 10002
+ Lumens: 13978 Power Setting: 137 for lamp ID: 10003
+Total Cell Demand: 123956 at 6197.8 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10100
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10101
+ Lumens: 12738.5 Power Setting: 129 for lamp ID: 10102
+ Lumens: 12738.5 Power Setting: 129 for lamp ID: 10103
+Total Cell Demand: 121477 at 6073.85 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10200
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10201
+ Lumens: 22997.8 Power Setting: 193 for lamp ID: 10202
+Total Cell Demand: 118998 at 5949.89 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10300
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10301
+ Lumens: 20518.7 Power Setting: 178 for lamp ID: 10302
+Total Cell Demand: 116519 at 5825.93 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10400
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10401
+ Lumens: 18039.6 Power Setting: 162 for lamp ID: 10402
+Total Cell Demand: 114040 at 5701.98 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10500
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10501
+ Lumens: 15560.4 Power Setting: 147 for lamp ID: 10502
+Total Cell Demand: 111560 at 5578.02 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10600
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10601
+ Lumens: 13081.3 Power Setting: 131 for lamp ID: 10602
+Total Cell Demand: 109081 at 5454.07 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10700
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10701
+ Lumens: 10602.2 Power Setting: 116 for lamp ID: 10702
+Total Cell Demand: 106602 at 5330.11 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10800
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10801
+ Lumens: 8123.08 Power Setting: 100 for lamp ID: 10802
+Total Cell Demand: 104123 at 5206.15 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10900
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10901
+ Lumens: 5643.96 Power Setting: 85 for lamp ID: 10902
+Total Cell Demand: 101644 at 5082.2 per metre
+ Lumens: 33054.9 Power Setting: 306 for lamp ID: 11000
+ Lumens: 33054.9 Power Setting: 306 for lamp ID: 11001
+ Lumens: 33054.9 Power Setting: 306 for lamp ID: 11004
+Total Cell Demand: 99164.8 at 4958.24 per metre
+ Lumens: 32228.6 Power Setting: 301 for lamp ID: 11100
+ Lumens: 32228.6 Power Setting: 301 for lamp ID: 11101
+ Lumens: 32228.6 Power Setting: 301 for lamp ID: 11104
+Total Cell Demand: 96685.7 at 4834.29 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11200
+ Lumens: 23103.3 Power Setting: 194 for lamp ID: 11202
+ Lumens: 23103.3 Power Setting: 194 for lamp ID: 11203
+Total Cell Demand: 94206.6 at 4710.33 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11300
+ Lumens: 21863.7 Power Setting: 186 for lamp ID: 11302
+ Lumens: 21863.7 Power Setting: 186 for lamp ID: 11303
+Total Cell Demand: 91727.5 at 4586.37 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11400
+ Lumens: 20624.2 Power Setting: 178 for lamp ID: 11402
+ Lumens: 20624.2 Power Setting: 178 for lamp ID: 11403
+Total Cell Demand: 89248.4 at 4462.42 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11500
+ Lumens: 19384.6 Power Setting: 171 for lamp ID: 11502
+ Lumens: 19384.6 Power Setting: 171 for lamp ID: 11503
+Total Cell Demand: 86769.2 at 4338.46 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11600
+ Lumens: 18145.1 Power Setting: 163 for lamp ID: 11602
+ Lumens: 18145.1 Power Setting: 163 for lamp ID: 11603
+Total Cell Demand: 84290.1 at 4214.51 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11700
+ Lumens: 16905.5 Power Setting: 155 for lamp ID: 11702
+ Lumens: 16905.5 Power Setting: 155 for lamp ID: 11703
+Total Cell Demand: 81811 at 4090.55 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11800
+ Lumens: 15665.9 Power Setting: 147 for lamp ID: 11802
+ Lumens: 15665.9 Power Setting: 147 for lamp ID: 11803
+Total Cell Demand: 79331.9 at 3966.59 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11900
+ Lumens: 14426.4 Power Setting: 140 for lamp ID: 11902
+ Lumens: 14426.4 Power Setting: 140 for lamp ID: 11903
+Total Cell Demand: 76852.7 at 3842.64 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12000
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 12002
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 12003
+Total Cell Demand: 74373.6 at 3718.68 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12100
+ Lumens: 23894.5 Power Setting: 199 for lamp ID: 12102
+Total Cell Demand: 71894.5 at 3594.73 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12200
+ Lumens: 21415.4 Power Setting: 183 for lamp ID: 12202
+Total Cell Demand: 69415.4 at 3470.77 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12300
+ Lumens: 18936.3 Power Setting: 168 for lamp ID: 12302
+Total Cell Demand: 66936.3 at 3346.81 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12400
+ Lumens: 16457.1 Power Setting: 152 for lamp ID: 12402
+Total Cell Demand: 64457.1 at 3222.86 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20000
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20002
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20003
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20100
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20102
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20103
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20200
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20202
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20203
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20300
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20302
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20303
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20400
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20402
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20403
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20500
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20502
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20503
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20600
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20602
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20603
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20700
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20702
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20703
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20800
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20802
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20803
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20900
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20902
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 20903
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21000
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21002
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21003
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21100
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21102
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21103
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21200
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21202
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21203
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21300
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21302
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21303
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21400
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21402
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21403
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21500
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21502
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21503
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21600
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21602
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21603
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21700
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21702
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21703
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21800
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21802
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21803
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21900
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21902
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 21903
+Total Cell Demand: 92967 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30000
+ Lumens: 13978 Power Setting: 137 for lamp ID: 30002
+Total Cell Demand: 61978 at 3098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30100
+ Lumens: 15527.5 Power Setting: 147 for lamp ID: 30102
+Total Cell Demand: 63527.5 at 3176.37 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30200
+ Lumens: 17076.9 Power Setting: 156 for lamp ID: 30202
+Total Cell Demand: 65076.9 at 3253.85 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30300
+ Lumens: 18626.4 Power Setting: 166 for lamp ID: 30302
+Total Cell Demand: 66626.4 at 3331.32 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30400
+ Lumens: 20175.8 Power Setting: 176 for lamp ID: 30402
+Total Cell Demand: 68175.8 at 3408.79 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30500
+ Lumens: 21725.3 Power Setting: 185 for lamp ID: 30502
+Total Cell Demand: 69725.3 at 3486.26 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30600
+ Lumens: 23274.7 Power Setting: 195 for lamp ID: 30602
+Total Cell Demand: 71274.7 at 3563.74 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30700
+ Lumens: 12412.1 Power Setting: 127 for lamp ID: 30702
+ Lumens: 12412.1 Power Setting: 127 for lamp ID: 30703
+Total Cell Demand: 72824.2 at 3641.21 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30800
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 30802
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 30803
+Total Cell Demand: 74373.6 at 3718.68 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30900
+ Lumens: 13961.5 Power Setting: 137 for lamp ID: 30902
+ Lumens: 13961.5 Power Setting: 137 for lamp ID: 30903
+Total Cell Demand: 75923.1 at 3796.15 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31000
+ Lumens: 14736.3 Power Setting: 142 for lamp ID: 31002
+ Lumens: 14736.3 Power Setting: 142 for lamp ID: 31003
+Total Cell Demand: 77472.5 at 3873.63 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31100
+ Lumens: 15511 Power Setting: 146 for lamp ID: 31102
+ Lumens: 15511 Power Setting: 146 for lamp ID: 31103
+Total Cell Demand: 79022 at 3951.1 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31200
+ Lumens: 16285.7 Power Setting: 151 for lamp ID: 31202
+ Lumens: 16285.7 Power Setting: 151 for lamp ID: 31203
+Total Cell Demand: 80571.4 at 4028.57 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31300
+ Lumens: 17060.4 Power Setting: 156 for lamp ID: 31302
+ Lumens: 17060.4 Power Setting: 156 for lamp ID: 31303
+Total Cell Demand: 82120.9 at 4106.04 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31400
+ Lumens: 17835.2 Power Setting: 161 for lamp ID: 31402
+ Lumens: 17835.2 Power Setting: 161 for lamp ID: 31403
+Total Cell Demand: 83670.3 at 4183.52 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31500
+ Lumens: 18609.9 Power Setting: 166 for lamp ID: 31502
+ Lumens: 18609.9 Power Setting: 166 for lamp ID: 31503
+Total Cell Demand: 85219.8 at 4260.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31600
+ Lumens: 19384.6 Power Setting: 171 for lamp ID: 31602
+ Lumens: 19384.6 Power Setting: 171 for lamp ID: 31603
+Total Cell Demand: 86769.2 at 4338.46 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31700
+ Lumens: 20159.3 Power Setting: 175 for lamp ID: 31702
+ Lumens: 20159.3 Power Setting: 175 for lamp ID: 31703
+Total Cell Demand: 88318.7 at 4415.93 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31800
+ Lumens: 20934.1 Power Setting: 180 for lamp ID: 31802
+ Lumens: 20934.1 Power Setting: 180 for lamp ID: 31803
+Total Cell Demand: 89868.1 at 4493.41 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31900
+ Lumens: 21708.8 Power Setting: 185 for lamp ID: 31902
+ Lumens: 21708.8 Power Setting: 185 for lamp ID: 31903
+Total Cell Demand: 91417.6 at 4570.88 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40000
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 40002
+ Lumens: 22483.5 Power Setting: 190 for lamp ID: 40003
+Total Cell Demand: 92967 at 4648.35 per metre
+ Lumens: 33054.9 Power Setting: 306 for lamp ID: 40100
+ Lumens: 33054.9 Power Setting: 306 for lamp ID: 40101
+ Lumens: 33054.9 Power Setting: 306 for lamp ID: 40104
+Total Cell Demand: 99164.8 at 4958.24 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40200
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40201
+ Lumens: 9362.64 Power Setting: 108 for lamp ID: 40202
+Total Cell Demand: 105363 at 5268.13 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40300
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40301
+ Lumens: 15560.4 Power Setting: 147 for lamp ID: 40302
+Total Cell Demand: 111560 at 5578.02 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40400
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40401
+ Lumens: 21758.2 Power Setting: 185 for lamp ID: 40402
+Total Cell Demand: 117758 at 5887.91 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40500
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40501
+ Lumens: 13978 Power Setting: 137 for lamp ID: 40502
+ Lumens: 13978 Power Setting: 137 for lamp ID: 40503
+Total Cell Demand: 123956 at 6197.8 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40600
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40601
+ Lumens: 17076.9 Power Setting: 156 for lamp ID: 40602
+ Lumens: 17076.9 Power Setting: 156 for lamp ID: 40603
+Total Cell Demand: 130154 at 6507.69 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40700
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40701
+ Lumens: 20175.8 Power Setting: 176 for lamp ID: 40702
+ Lumens: 20175.8 Power Setting: 176 for lamp ID: 40703
+Total Cell Demand: 136352 at 6817.58 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40800
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40801
+ Lumens: 23274.7 Power Setting: 195 for lamp ID: 40802
+ Lumens: 23274.7 Power Setting: 195 for lamp ID: 40803
+Total Cell Demand: 142549 at 7127.47 per metre
+ Lumens: 37186.8 Power Setting: 332 for lamp ID: 40900
+ Lumens: 37186.8 Power Setting: 332 for lamp ID: 40901
+ Lumens: 37186.8 Power Setting: 332 for lamp ID: 40904
+ Lumens: 37186.8 Power Setting: 332 for lamp ID: 40905
+Total Cell Demand: 148747 at 7437.36 per metre
+
+Photometer Input: 4mA    Days since cleaning: 100    Power: Live 
+ 
+(0) quit (1) Photometer Input (4-20) 
+(2) Set days since cleaning (3) Toggle Power Failure Status: 
+
+Enter days since cleaning in the range 0-182 :  Lumens: 48000 Power Setting: 400 for lamp ID: 0
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1
+ Lumens: 15736.3 Power Setting: 148 for lamp ID: 2
+ Lumens: 15736.3 Power Setting: 148 for lamp ID: 3
+Total Cell Demand: 127473 at 6373.63 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 100
+ Lumens: 48000 Power Setting: 400 for lamp ID: 101
+ Lumens: 14886.4 Power Setting: 143 for lamp ID: 102
+ Lumens: 14886.4 Power Setting: 143 for lamp ID: 103
+Total Cell Demand: 125773 at 6288.64 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 200
+ Lumens: 48000 Power Setting: 400 for lamp ID: 201
+ Lumens: 14036.6 Power Setting: 137 for lamp ID: 202
+ Lumens: 14036.6 Power Setting: 137 for lamp ID: 203
+Total Cell Demand: 124073 at 6203.66 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 300
+ Lumens: 48000 Power Setting: 400 for lamp ID: 301
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 302
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 303
+Total Cell Demand: 122374 at 6118.68 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 400
+ Lumens: 48000 Power Setting: 400 for lamp ID: 401
+ Lumens: 12337 Power Setting: 127 for lamp ID: 402
+ Lumens: 12337 Power Setting: 127 for lamp ID: 403
+Total Cell Demand: 120674 at 6033.7 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 500
+ Lumens: 48000 Power Setting: 400 for lamp ID: 501
+ Lumens: 22974.4 Power Setting: 193 for lamp ID: 502
+Total Cell Demand: 118974 at 5948.72 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 600
+ Lumens: 48000 Power Setting: 400 for lamp ID: 601
+ Lumens: 21274.7 Power Setting: 182 for lamp ID: 602
+Total Cell Demand: 117275 at 5863.74 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 700
+ Lumens: 48000 Power Setting: 400 for lamp ID: 701
+ Lumens: 19575.1 Power Setting: 172 for lamp ID: 702
+Total Cell Demand: 115575 at 5778.75 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 800
+ Lumens: 48000 Power Setting: 400 for lamp ID: 801
+ Lumens: 17875.5 Power Setting: 161 for lamp ID: 802
+Total Cell Demand: 113875 at 5693.77 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 900
+ Lumens: 48000 Power Setting: 400 for lamp ID: 901
+ Lumens: 16175.8 Power Setting: 151 for lamp ID: 902
+Total Cell Demand: 112176 at 5608.79 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1000
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1001
+ Lumens: 14476.2 Power Setting: 140 for lamp ID: 1002
+Total Cell Demand: 110476 at 5523.81 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1100
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1101
+ Lumens: 12776.6 Power Setting: 129 for lamp ID: 1102
+Total Cell Demand: 108777 at 5438.83 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1200
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1201
+ Lumens: 11076.9 Power Setting: 119 for lamp ID: 1202
+Total Cell Demand: 107077 at 5353.85 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1300
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1301
+ Lumens: 9377.29 Power Setting: 108 for lamp ID: 1302
+Total Cell Demand: 105377 at 5268.86 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1400
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1401
+ Lumens: 7677.66 Power Setting: 97 for lamp ID: 1402
+Total Cell Demand: 103678 at 5183.88 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10000
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10001
+ Lumens: 5978.02 Power Setting: 87 for lamp ID: 10002
+Total Cell Demand: 101978 at 5098.9 per metre
+ Lumens: 33312.8 Power Setting: 308 for lamp ID: 10100
+ Lumens: 33312.8 Power Setting: 308 for lamp ID: 10101
+ Lumens: 33312.8 Power Setting: 308 for lamp ID: 10104
+Total Cell Demand: 99938.5 at 4996.92 per metre
+ Lumens: 32633 Power Setting: 303 for lamp ID: 10200
+ Lumens: 32633 Power Setting: 303 for lamp ID: 10201
+ Lumens: 32633 Power Setting: 303 for lamp ID: 10204
+Total Cell Demand: 97898.9 at 4894.95 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10300
+ Lumens: 23929.7 Power Setting: 199 for lamp ID: 10302
+ Lumens: 23929.7 Power Setting: 199 for lamp ID: 10303
+Total Cell Demand: 95859.3 at 4792.97 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10400
+ Lumens: 22909.9 Power Setting: 193 for lamp ID: 10402
+ Lumens: 22909.9 Power Setting: 193 for lamp ID: 10403
+Total Cell Demand: 93819.8 at 4690.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10500
+ Lumens: 21890.1 Power Setting: 186 for lamp ID: 10502
+ Lumens: 21890.1 Power Setting: 186 for lamp ID: 10503
+Total Cell Demand: 91780.2 at 4589.01 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10600
+ Lumens: 20870.3 Power Setting: 180 for lamp ID: 10602
+ Lumens: 20870.3 Power Setting: 180 for lamp ID: 10603
+Total Cell Demand: 89740.7 at 4487.03 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10700
+ Lumens: 19850.5 Power Setting: 174 for lamp ID: 10702
+ Lumens: 19850.5 Power Setting: 174 for lamp ID: 10703
+Total Cell Demand: 87701.1 at 4385.05 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10800
+ Lumens: 18830.8 Power Setting: 167 for lamp ID: 10802
+ Lumens: 18830.8 Power Setting: 167 for lamp ID: 10803
+Total Cell Demand: 85661.5 at 4283.08 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10900
+ Lumens: 17811 Power Setting: 161 for lamp ID: 10902
+ Lumens: 17811 Power Setting: 161 for lamp ID: 10903
+Total Cell Demand: 83622 at 4181.1 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11000
+ Lumens: 16791.2 Power Setting: 154 for lamp ID: 11002
+ Lumens: 16791.2 Power Setting: 154 for lamp ID: 11003
+Total Cell Demand: 81582.4 at 4079.12 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11100
+ Lumens: 15771.4 Power Setting: 148 for lamp ID: 11102
+ Lumens: 15771.4 Power Setting: 148 for lamp ID: 11103
+Total Cell Demand: 79542.9 at 3977.14 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11200
+ Lumens: 14751.6 Power Setting: 142 for lamp ID: 11202
+ Lumens: 14751.6 Power Setting: 142 for lamp ID: 11203
+Total Cell Demand: 77503.3 at 3875.16 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11300
+ Lumens: 13731.9 Power Setting: 135 for lamp ID: 11302
+ Lumens: 13731.9 Power Setting: 135 for lamp ID: 11303
+Total Cell Demand: 75463.7 at 3773.19 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11400
+ Lumens: 12712.1 Power Setting: 129 for lamp ID: 11402
+ Lumens: 12712.1 Power Setting: 129 for lamp ID: 11403
+Total Cell Demand: 73424.2 at 3671.21 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11500
+ Lumens: 23384.6 Power Setting: 196 for lamp ID: 11502
+Total Cell Demand: 71384.6 at 3569.23 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11600
+ Lumens: 21345.1 Power Setting: 183 for lamp ID: 11602
+Total Cell Demand: 69345.1 at 3467.25 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11700
+ Lumens: 19305.5 Power Setting: 170 for lamp ID: 11702
+Total Cell Demand: 67305.5 at 3365.27 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11800
+ Lumens: 17265.9 Power Setting: 157 for lamp ID: 11802
+Total Cell Demand: 65265.9 at 3263.3 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11900
+ Lumens: 15226.4 Power Setting: 145 for lamp ID: 11902
+Total Cell Demand: 63226.4 at 3161.32 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12000
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 12002
+Total Cell Demand: 61186.8 at 3059.34 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12100
+ Lumens: 11147.3 Power Setting: 119 for lamp ID: 12102
+Total Cell Demand: 59147.3 at 2957.36 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12200
+ Lumens: 9107.69 Power Setting: 106 for lamp ID: 12202
+Total Cell Demand: 57107.7 at 2855.38 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12300
+ Lumens: 7068.13 Power Setting: 94 for lamp ID: 12302
+Total Cell Demand: 55068.1 at 2753.41 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12400
+ Lumens: 5028.57 Power Setting: 81 for lamp ID: 12402
+Total Cell Demand: 53028.6 at 2651.43 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20000
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20002
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20003
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20100
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20102
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20103
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20200
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20202
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20203
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20300
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20302
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20303
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20400
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20402
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20403
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20500
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20502
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20503
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20600
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20602
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20603
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20700
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20702
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20703
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20800
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20802
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20803
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20900
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20902
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20903
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21000
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21002
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21003
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21100
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21102
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21103
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21200
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21202
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21203
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21300
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21302
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21303
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21400
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21402
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21403
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21500
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21502
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21503
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21600
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21602
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21603
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21700
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21702
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21703
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21800
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21802
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21803
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21900
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21902
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21903
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 25494.5 Power Setting: 259 for lamp ID: 30000
+ Lumens: 25494.5 Power Setting: 259 for lamp ID: 30001
+Total Cell Demand: 50989 at 2549.45 per metre
+ Lumens: 26131.9 Power Setting: 263 for lamp ID: 30100
+ Lumens: 26131.9 Power Setting: 263 for lamp ID: 30101
+Total Cell Demand: 52263.7 at 2613.19 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30200
+ Lumens: 5538.46 Power Setting: 84 for lamp ID: 30202
+Total Cell Demand: 53538.5 at 2676.92 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30300
+ Lumens: 6813.19 Power Setting: 92 for lamp ID: 30302
+Total Cell Demand: 54813.2 at 2740.66 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30400
+ Lumens: 8087.91 Power Setting: 100 for lamp ID: 30402
+Total Cell Demand: 56087.9 at 2804.4 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30500
+ Lumens: 9362.64 Power Setting: 108 for lamp ID: 30502
+Total Cell Demand: 57362.6 at 2868.13 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30600
+ Lumens: 10637.4 Power Setting: 116 for lamp ID: 30602
+Total Cell Demand: 58637.4 at 2931.87 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30700
+ Lumens: 11912.1 Power Setting: 124 for lamp ID: 30702
+Total Cell Demand: 59912.1 at 2995.6 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30800
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 30802
+Total Cell Demand: 61186.8 at 3059.34 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30900
+ Lumens: 14461.5 Power Setting: 140 for lamp ID: 30902
+Total Cell Demand: 62461.5 at 3123.08 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31000
+ Lumens: 15736.3 Power Setting: 148 for lamp ID: 31002
+Total Cell Demand: 63736.3 at 3186.81 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31100
+ Lumens: 17011 Power Setting: 156 for lamp ID: 31102
+Total Cell Demand: 65011 at 3250.55 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31200
+ Lumens: 18285.7 Power Setting: 164 for lamp ID: 31202
+Total Cell Demand: 66285.7 at 3314.29 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31300
+ Lumens: 19560.4 Power Setting: 172 for lamp ID: 31302
+Total Cell Demand: 67560.4 at 3378.02 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31400
+ Lumens: 20835.2 Power Setting: 180 for lamp ID: 31402
+Total Cell Demand: 68835.2 at 3441.76 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31500
+ Lumens: 22109.9 Power Setting: 188 for lamp ID: 31502
+Total Cell Demand: 70109.9 at 3505.49 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31600
+ Lumens: 23384.6 Power Setting: 196 for lamp ID: 31602
+Total Cell Demand: 71384.6 at 3569.23 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31700
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 31702
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 31703
+Total Cell Demand: 72659.3 at 3632.97 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31800
+ Lumens: 12967 Power Setting: 131 for lamp ID: 31802
+ Lumens: 12967 Power Setting: 131 for lamp ID: 31803
+Total Cell Demand: 73934.1 at 3696.7 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31900
+ Lumens: 13604.4 Power Setting: 135 for lamp ID: 31902
+ Lumens: 13604.4 Power Setting: 135 for lamp ID: 31903
+Total Cell Demand: 75208.8 at 3760.44 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40000
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 40002
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 40003
+Total Cell Demand: 76483.5 at 3824.18 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40100
+ Lumens: 16791.2 Power Setting: 154 for lamp ID: 40102
+ Lumens: 16791.2 Power Setting: 154 for lamp ID: 40103
+Total Cell Demand: 81582.4 at 4079.12 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40200
+ Lumens: 19340.7 Power Setting: 170 for lamp ID: 40202
+ Lumens: 19340.7 Power Setting: 170 for lamp ID: 40203
+Total Cell Demand: 86681.3 at 4334.07 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40300
+ Lumens: 21890.1 Power Setting: 186 for lamp ID: 40302
+ Lumens: 21890.1 Power Setting: 186 for lamp ID: 40303
+Total Cell Demand: 91780.2 at 4589.01 per metre
+ Lumens: 32293 Power Setting: 301 for lamp ID: 40400
+ Lumens: 32293 Power Setting: 301 for lamp ID: 40401
+ Lumens: 32293 Power Setting: 301 for lamp ID: 40404
+Total Cell Demand: 96879.1 at 4843.96 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40500
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40501
+ Lumens: 5978.02 Power Setting: 87 for lamp ID: 40502
+Total Cell Demand: 101978 at 5098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40600
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40601
+ Lumens: 11076.9 Power Setting: 119 for lamp ID: 40602
+Total Cell Demand: 107077 at 5353.85 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40700
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40701
+ Lumens: 16175.8 Power Setting: 151 for lamp ID: 40702
+Total Cell Demand: 112176 at 5608.79 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40800
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40801
+ Lumens: 21274.7 Power Setting: 182 for lamp ID: 40802
+Total Cell Demand: 117275 at 5863.74 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40900
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40901
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 40902
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 40903
+Total Cell Demand: 122374 at 6118.68 per metre
+
+Photometer Input: 4mA    Days since cleaning: 50    Power: Live 
+ 
+(0) quit (1) Photometer Input (4-20) 
+(2) Set days since cleaning (3) Toggle Power Failure Status: 
+
+Enter photometer input in range 4-20mA:  Lumens: 48000 Power Setting: 400 for lamp ID: 0
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1
+ Lumens: 15736.3 Power Setting: 148 for lamp ID: 2
+ Lumens: 15736.3 Power Setting: 148 for lamp ID: 3
+Total Cell Demand: 127473 at 6373.63 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 100
+ Lumens: 48000 Power Setting: 400 for lamp ID: 101
+ Lumens: 14886.4 Power Setting: 143 for lamp ID: 102
+ Lumens: 14886.4 Power Setting: 143 for lamp ID: 103
+Total Cell Demand: 125773 at 6288.64 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 200
+ Lumens: 48000 Power Setting: 400 for lamp ID: 201
+ Lumens: 14036.6 Power Setting: 137 for lamp ID: 202
+ Lumens: 14036.6 Power Setting: 137 for lamp ID: 203
+Total Cell Demand: 124073 at 6203.66 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 300
+ Lumens: 48000 Power Setting: 400 for lamp ID: 301
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 302
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 303
+Total Cell Demand: 122374 at 6118.68 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 400
+ Lumens: 48000 Power Setting: 400 for lamp ID: 401
+ Lumens: 12337 Power Setting: 127 for lamp ID: 402
+ Lumens: 12337 Power Setting: 127 for lamp ID: 403
+Total Cell Demand: 120674 at 6033.7 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 500
+ Lumens: 48000 Power Setting: 400 for lamp ID: 501
+ Lumens: 22974.4 Power Setting: 193 for lamp ID: 502
+Total Cell Demand: 118974 at 5948.72 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 600
+ Lumens: 48000 Power Setting: 400 for lamp ID: 601
+ Lumens: 21274.7 Power Setting: 182 for lamp ID: 602
+Total Cell Demand: 117275 at 5863.74 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 700
+ Lumens: 48000 Power Setting: 400 for lamp ID: 701
+ Lumens: 19575.1 Power Setting: 172 for lamp ID: 702
+Total Cell Demand: 115575 at 5778.75 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 800
+ Lumens: 48000 Power Setting: 400 for lamp ID: 801
+ Lumens: 17875.5 Power Setting: 161 for lamp ID: 802
+Total Cell Demand: 113875 at 5693.77 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 900
+ Lumens: 48000 Power Setting: 400 for lamp ID: 901
+ Lumens: 16175.8 Power Setting: 151 for lamp ID: 902
+Total Cell Demand: 112176 at 5608.79 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1000
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1001
+ Lumens: 14476.2 Power Setting: 140 for lamp ID: 1002
+Total Cell Demand: 110476 at 5523.81 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1100
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1101
+ Lumens: 12776.6 Power Setting: 129 for lamp ID: 1102
+Total Cell Demand: 108777 at 5438.83 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1200
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1201
+ Lumens: 11076.9 Power Setting: 119 for lamp ID: 1202
+Total Cell Demand: 107077 at 5353.85 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1300
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1301
+ Lumens: 9377.29 Power Setting: 108 for lamp ID: 1302
+Total Cell Demand: 105377 at 5268.86 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1400
+ Lumens: 48000 Power Setting: 400 for lamp ID: 1401
+ Lumens: 7677.66 Power Setting: 97 for lamp ID: 1402
+Total Cell Demand: 103678 at 5183.88 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10000
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10001
+ Lumens: 5978.02 Power Setting: 87 for lamp ID: 10002
+Total Cell Demand: 101978 at 5098.9 per metre
+ Lumens: 33312.8 Power Setting: 308 for lamp ID: 10100
+ Lumens: 33312.8 Power Setting: 308 for lamp ID: 10101
+ Lumens: 33312.8 Power Setting: 308 for lamp ID: 10104
+Total Cell Demand: 99938.5 at 4996.92 per metre
+ Lumens: 32633 Power Setting: 303 for lamp ID: 10200
+ Lumens: 32633 Power Setting: 303 for lamp ID: 10201
+ Lumens: 32633 Power Setting: 303 for lamp ID: 10204
+Total Cell Demand: 97898.9 at 4894.95 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10300
+ Lumens: 23929.7 Power Setting: 199 for lamp ID: 10302
+ Lumens: 23929.7 Power Setting: 199 for lamp ID: 10303
+Total Cell Demand: 95859.3 at 4792.97 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10400
+ Lumens: 22909.9 Power Setting: 193 for lamp ID: 10402
+ Lumens: 22909.9 Power Setting: 193 for lamp ID: 10403
+Total Cell Demand: 93819.8 at 4690.99 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10500
+ Lumens: 21890.1 Power Setting: 186 for lamp ID: 10502
+ Lumens: 21890.1 Power Setting: 186 for lamp ID: 10503
+Total Cell Demand: 91780.2 at 4589.01 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10600
+ Lumens: 20870.3 Power Setting: 180 for lamp ID: 10602
+ Lumens: 20870.3 Power Setting: 180 for lamp ID: 10603
+Total Cell Demand: 89740.7 at 4487.03 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10700
+ Lumens: 19850.5 Power Setting: 174 for lamp ID: 10702
+ Lumens: 19850.5 Power Setting: 174 for lamp ID: 10703
+Total Cell Demand: 87701.1 at 4385.05 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10800
+ Lumens: 18830.8 Power Setting: 167 for lamp ID: 10802
+ Lumens: 18830.8 Power Setting: 167 for lamp ID: 10803
+Total Cell Demand: 85661.5 at 4283.08 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 10900
+ Lumens: 17811 Power Setting: 161 for lamp ID: 10902
+ Lumens: 17811 Power Setting: 161 for lamp ID: 10903
+Total Cell Demand: 83622 at 4181.1 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11000
+ Lumens: 16791.2 Power Setting: 154 for lamp ID: 11002
+ Lumens: 16791.2 Power Setting: 154 for lamp ID: 11003
+Total Cell Demand: 81582.4 at 4079.12 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11100
+ Lumens: 15771.4 Power Setting: 148 for lamp ID: 11102
+ Lumens: 15771.4 Power Setting: 148 for lamp ID: 11103
+Total Cell Demand: 79542.9 at 3977.14 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11200
+ Lumens: 14751.6 Power Setting: 142 for lamp ID: 11202
+ Lumens: 14751.6 Power Setting: 142 for lamp ID: 11203
+Total Cell Demand: 77503.3 at 3875.16 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11300
+ Lumens: 13731.9 Power Setting: 135 for lamp ID: 11302
+ Lumens: 13731.9 Power Setting: 135 for lamp ID: 11303
+Total Cell Demand: 75463.7 at 3773.19 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11400
+ Lumens: 12712.1 Power Setting: 129 for lamp ID: 11402
+ Lumens: 12712.1 Power Setting: 129 for lamp ID: 11403
+Total Cell Demand: 73424.2 at 3671.21 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11500
+ Lumens: 23384.6 Power Setting: 196 for lamp ID: 11502
+Total Cell Demand: 71384.6 at 3569.23 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11600
+ Lumens: 21345.1 Power Setting: 183 for lamp ID: 11602
+Total Cell Demand: 69345.1 at 3467.25 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11700
+ Lumens: 19305.5 Power Setting: 170 for lamp ID: 11702
+Total Cell Demand: 67305.5 at 3365.27 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11800
+ Lumens: 17265.9 Power Setting: 157 for lamp ID: 11802
+Total Cell Demand: 65265.9 at 3263.3 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 11900
+ Lumens: 15226.4 Power Setting: 145 for lamp ID: 11902
+Total Cell Demand: 63226.4 at 3161.32 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12000
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 12002
+Total Cell Demand: 61186.8 at 3059.34 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12100
+ Lumens: 11147.3 Power Setting: 119 for lamp ID: 12102
+Total Cell Demand: 59147.3 at 2957.36 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12200
+ Lumens: 9107.69 Power Setting: 106 for lamp ID: 12202
+Total Cell Demand: 57107.7 at 2855.38 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12300
+ Lumens: 7068.13 Power Setting: 94 for lamp ID: 12302
+Total Cell Demand: 55068.1 at 2753.41 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 12400
+ Lumens: 5028.57 Power Setting: 81 for lamp ID: 12402
+Total Cell Demand: 53028.6 at 2651.43 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20000
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20002
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20003
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20100
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20102
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20103
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20200
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20202
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20203
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20300
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20302
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20303
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20400
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20402
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20403
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20500
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20502
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20503
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20600
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20602
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20603
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20700
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20702
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20703
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20800
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20802
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20803
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 20900
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20902
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 20903
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21000
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21002
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21003
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21100
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21102
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21103
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21200
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21202
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21203
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21300
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21302
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21303
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21400
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21402
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21403
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21500
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21502
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21503
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21600
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21602
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21603
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21700
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21702
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21703
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21800
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21802
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21803
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 21900
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21902
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 21903
+Total Cell Demand: 76483.5 at 2549.45 per metre
+ Lumens: 25494.5 Power Setting: 259 for lamp ID: 30000
+ Lumens: 25494.5 Power Setting: 259 for lamp ID: 30001
+Total Cell Demand: 50989 at 2549.45 per metre
+ Lumens: 26131.9 Power Setting: 263 for lamp ID: 30100
+ Lumens: 26131.9 Power Setting: 263 for lamp ID: 30101
+Total Cell Demand: 52263.7 at 2613.19 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30200
+ Lumens: 5538.46 Power Setting: 84 for lamp ID: 30202
+Total Cell Demand: 53538.5 at 2676.92 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30300
+ Lumens: 6813.19 Power Setting: 92 for lamp ID: 30302
+Total Cell Demand: 54813.2 at 2740.66 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30400
+ Lumens: 8087.91 Power Setting: 100 for lamp ID: 30402
+Total Cell Demand: 56087.9 at 2804.4 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30500
+ Lumens: 9362.64 Power Setting: 108 for lamp ID: 30502
+Total Cell Demand: 57362.6 at 2868.13 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30600
+ Lumens: 10637.4 Power Setting: 116 for lamp ID: 30602
+Total Cell Demand: 58637.4 at 2931.87 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30700
+ Lumens: 11912.1 Power Setting: 124 for lamp ID: 30702
+Total Cell Demand: 59912.1 at 2995.6 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30800
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 30802
+Total Cell Demand: 61186.8 at 3059.34 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 30900
+ Lumens: 14461.5 Power Setting: 140 for lamp ID: 30902
+Total Cell Demand: 62461.5 at 3123.08 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31000
+ Lumens: 15736.3 Power Setting: 148 for lamp ID: 31002
+Total Cell Demand: 63736.3 at 3186.81 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31100
+ Lumens: 17011 Power Setting: 156 for lamp ID: 31102
+Total Cell Demand: 65011 at 3250.55 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31200
+ Lumens: 18285.7 Power Setting: 164 for lamp ID: 31202
+Total Cell Demand: 66285.7 at 3314.29 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31300
+ Lumens: 19560.4 Power Setting: 172 for lamp ID: 31302
+Total Cell Demand: 67560.4 at 3378.02 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31400
+ Lumens: 20835.2 Power Setting: 180 for lamp ID: 31402
+Total Cell Demand: 68835.2 at 3441.76 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31500
+ Lumens: 22109.9 Power Setting: 188 for lamp ID: 31502
+Total Cell Demand: 70109.9 at 3505.49 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31600
+ Lumens: 23384.6 Power Setting: 196 for lamp ID: 31602
+Total Cell Demand: 71384.6 at 3569.23 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31700
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 31702
+ Lumens: 12329.7 Power Setting: 127 for lamp ID: 31703
+Total Cell Demand: 72659.3 at 3632.97 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31800
+ Lumens: 12967 Power Setting: 131 for lamp ID: 31802
+ Lumens: 12967 Power Setting: 131 for lamp ID: 31803
+Total Cell Demand: 73934.1 at 3696.7 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 31900
+ Lumens: 13604.4 Power Setting: 135 for lamp ID: 31902
+ Lumens: 13604.4 Power Setting: 135 for lamp ID: 31903
+Total Cell Demand: 75208.8 at 3760.44 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40000
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 40002
+ Lumens: 14241.8 Power Setting: 139 for lamp ID: 40003
+Total Cell Demand: 76483.5 at 3824.18 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40100
+ Lumens: 16791.2 Power Setting: 154 for lamp ID: 40102
+ Lumens: 16791.2 Power Setting: 154 for lamp ID: 40103
+Total Cell Demand: 81582.4 at 4079.12 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40200
+ Lumens: 19340.7 Power Setting: 170 for lamp ID: 40202
+ Lumens: 19340.7 Power Setting: 170 for lamp ID: 40203
+Total Cell Demand: 86681.3 at 4334.07 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40300
+ Lumens: 21890.1 Power Setting: 186 for lamp ID: 40302
+ Lumens: 21890.1 Power Setting: 186 for lamp ID: 40303
+Total Cell Demand: 91780.2 at 4589.01 per metre
+ Lumens: 32293 Power Setting: 301 for lamp ID: 40400
+ Lumens: 32293 Power Setting: 301 for lamp ID: 40401
+ Lumens: 32293 Power Setting: 301 for lamp ID: 40404
+Total Cell Demand: 96879.1 at 4843.96 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40500
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40501
+ Lumens: 5978.02 Power Setting: 87 for lamp ID: 40502
+Total Cell Demand: 101978 at 5098.9 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40600
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40601
+ Lumens: 11076.9 Power Setting: 119 for lamp ID: 40602
+Total Cell Demand: 107077 at 5353.85 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40700
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40701
+ Lumens: 16175.8 Power Setting: 151 for lamp ID: 40702
+Total Cell Demand: 112176 at 5608.79 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40800
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40801
+ Lumens: 21274.7 Power Setting: 182 for lamp ID: 40802
+Total Cell Demand: 117275 at 5863.74 per metre
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40900
+ Lumens: 48000 Power Setting: 400 for lamp ID: 40901
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 40902
+ Lumens: 13186.8 Power Setting: 132 for lamp ID: 40903
+Total Cell Demand: 122374 at 6118.68 per metre
+
+Photometer Input: 4mA    Days since cleaning: 50    Power: Live 
+ 
+(0) quit (1) Photometer Input (4-20) 
+(2) Set days since cleaning (3) Toggle Power Failure Status: 
+
