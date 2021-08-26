@@ -4,7 +4,7 @@ Cell.h
 v1.0 Original 23/10/07 Bill Cody 
 v1.1 Addition of different lamp types for exit signs & sirens 03/05/08 Bill Cody
 *************************************************************************************************************/
-
+#include <stdio.h>
 namespace TunnelData
 {
 	class Cell
