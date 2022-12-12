@@ -363,7 +363,7 @@ def sarif_report():
         else:
             file_type ="C"
         helpUri = "file:///"+helpUri+"Standards_info//Html//"+file_type+"//Standards.htm"
-    s= open(ldraFile[:-4]+'sarif', 'w')
+    s= open(CodeAnalysisLogs+'sarif', 'w')
     s.write('{\n')
     s.write('  "version":"2.1.0",\n')
     s.write(' "$schema": "http://json.schemastore.org/sarif-2.1.0-rtm.4",\n')
