@@ -375,24 +375,6 @@ def sarif_report():
     s.write('          "version": "10",\n')
     s.write('          "informationUri": "https://www.ldra.com",\n')
     s.write('          "rules": [\n')
-    for i in range (0, len(allRulesArray)):
-            s.write('            {\n')
-            s.write('              "id": "'+ allRulesArray[i]+'",\n')
-            s.write('              "shortDescription": {\n')
-            if '"' in description[i]:
-                description[i] = description[i].replace ('"','')
-
-            s.write('                "text": "'+description[i]+'"\n')
-            s.write('              },\n')
-            s.write('             "helpUri": "'+helpUri+'",\n')
-            s.write('             "properties": {\n')
-            s.write('             "category": "Variables"\n')
-            s.write('              }\n')
-            if (i == (len(allRulesArray)-1)):
-
-                s.write('            }\n')
-            else:
-                s.write('            },\n')
     s.write('            ]\n')
     s.write('          }\n')
     s.write('        },\n')
